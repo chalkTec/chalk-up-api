@@ -179,6 +179,32 @@ restfulApiConfig = {
         }
     }
 
+    resource 'gyms' config {
+        representation {
+            mediaTypes = ["application/json"]
+            marshallers {
+                jsonDomainMarshaller {
+                    supports chalkup.gym.Gym
+                    field 'floorPlans' deep true
+                }
+                jsonDomainMarshaller {
+                    supports chalkup.gym.FloorPlan
+                    additionalFields { Map map ->
+                        // use additional field mapping to wrap floor plan image properties in img JSON object
+                        def img = [:]
+                        img['widthInPx'] = map['beanWrapper'].getPropertyValue('widthInPx')
+                        img['heightInPx'] = map['beanWrapper'].getPropertyValue('heightInPx')
+                        img['url'] = map['beanWrapper'].getPropertyValue('imageUrl')
+                        map['json'].property("img", img)
+                    }
+                    includesFields {}
+                }
+                marshallerGroup 'defaultJson'
+            }
+            jsonExtractor {}
+        }
+    }
+
     // handle any pluralized resource name by mapping it to the singularized service name,
     // e.g. persons is handled by personService.
     // Dynamic marshallers/extractors are used.

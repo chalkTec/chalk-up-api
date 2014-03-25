@@ -2,9 +2,11 @@ import chalkup.SampleData
 
 class BootStrap {
 
+    def grailsApplication
+
     def createGyms() {
-        SampleData.createBoulderwelt().save(flush: true);
-        SampleData.createHeavensGate().save(flush: true);
+        SampleData.createBoulderwelt(grailsApplication).save(flush: true);
+        SampleData.createHeavensGate(grailsApplication).save(flush: true);
     }
 
     def init = { servletContext ->
