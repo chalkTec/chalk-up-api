@@ -1,3 +1,6 @@
+import grails.converters.JSON
+import org.codehaus.groovy.grails.web.converters.marshaller.ClosureObjectMarshaller
+
 // locations to search for config files that get merged into the main config;
 // config files can be ConfigSlurper scripts, Java properties files, or classes
 // in the classpath in ConfigSlurper format
@@ -18,19 +21,19 @@ grails.project.groupId = "chalkUpTec" // change this to alter the default packag
 // The ACCEPT header will not be used for content negotiation for user agents containing the following strings (defaults to the 4 major rendering engines)
 grails.mime.disable.accept.header.userAgents = ['Gecko', 'WebKit', 'Presto', 'Trident']
 grails.mime.types = [ // the first one is the default format
-    all:           '*/*', // 'all' maps to '*' or the first available format in withFormat
-    atom:          'application/atom+xml',
-    css:           'text/css',
-    csv:           'text/csv',
-    form:          'application/x-www-form-urlencoded',
-    html:          ['text/html','application/xhtml+xml'],
-    js:            'text/javascript',
-    json:          ['application/json', 'text/json'],
-    multipartForm: 'multipart/form-data',
-    rss:           'application/rss+xml',
-    text:          'text/plain',
-    hal:           ['application/hal+json','application/hal+xml'],
-    xml:           ['text/xml', 'application/xml']
+                      all          : '*/*', // 'all' maps to '*' or the first available format in withFormat
+                      atom         : 'application/atom+xml',
+                      css          : 'text/css',
+                      csv          : 'text/csv',
+                      form         : 'application/x-www-form-urlencoded',
+                      html         : ['text/html', 'application/xhtml+xml'],
+                      js           : 'text/javascript',
+                      json         : ['application/json', 'text/json'],
+                      multipartForm: 'multipart/form-data',
+                      rss          : 'application/rss+xml',
+                      text         : 'text/plain',
+                      hal          : ['application/hal+json', 'application/hal+xml'],
+                      xml          : ['text/xml', 'application/xml']
 ]
 
 // URL Mapping Cache Max Size, defaults to 5000
@@ -80,7 +83,7 @@ grails.enable.native2ascii = true
 // packages to include in Spring bean scanning
 grails.spring.bean.packages = ['chalkup']
 // whether to disable processing of multi part requests
-grails.web.disable.multipart=false
+grails.web.disable.multipart = false
 
 // request parameters to mask when logging exceptions
 grails.exceptionresolver.params.exclude = ['password']
@@ -113,18 +116,87 @@ log4j = {
     //    console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
     //}
 
-    error  'org.codehaus.groovy.grails.web.servlet',        // controllers
-           'org.codehaus.groovy.grails.web.pages',          // GSP
-           'org.codehaus.groovy.grails.web.sitemesh',       // layouts
-           'org.codehaus.groovy.grails.web.mapping.filter', // URL mapping
-           'org.codehaus.groovy.grails.web.mapping',        // URL mapping
-           'org.codehaus.groovy.grails.commons',            // core / classloading
-           'org.codehaus.groovy.grails.plugins',            // plugins
-           'org.codehaus.groovy.grails.orm.hibernate',      // hibernate integration
-           'org.springframework',
-           'org.hibernate',
-           'net.sf.ehcache.hibernate'
+    error 'org.codehaus.groovy.grails.web.servlet',        // controllers
+            'org.codehaus.groovy.grails.web.pages',          // GSP
+            'org.codehaus.groovy.grails.web.sitemesh',       // layouts
+            'org.codehaus.groovy.grails.web.mapping.filter', // URL mapping
+            'org.codehaus.groovy.grails.web.mapping',        // URL mapping
+            'org.codehaus.groovy.grails.commons',            // core / classloading
+            'org.codehaus.groovy.grails.plugins',            // plugins
+            'org.codehaus.groovy.grails.orm.hibernate',      // hibernate integration
+            'org.springframework',
+            'org.hibernate',
+            'net.sf.ehcache.hibernate'
+
+    fatal 'RestfulApiController_messageLog'
 }
 
 
-cors.url.pattern = '/*'
+
+
+cache.headers.enabled = false
+
+// ******************************************************************************
+//                              CORS Configuration
+// ******************************************************************************
+// Note: If changing custom header names, remember to reflect them here.
+//
+cors.url.pattern = '/rest/*'
+cors.allow.origin.regex = '.*'
+cors.expose.headers = 'content-type,X-chalkup-totalCount,X-chalkup-pageOffset,X-chalkup-pageMaxSize,X-chalkup-message,X-chalkup-Media-Type'
+
+// ******************************************************************************
+//             RESTful API Custom Response Header Name Configuration
+// ******************************************************************************
+//
+restfulApi.header.totalCount = 'X-chalkup-totalCount'
+restfulApi.header.pageOffset = 'X-chalkup-pageOffset'
+restfulApi.header.pageMaxSize = 'X-chalkup-pageMaxSize'
+restfulApi.header.message = 'X-chalkup-message'
+restfulApi.header.mediaType = 'X-chalkup-Media-Type'
+
+// ******************************************************************************
+//             RESTful API 'Paging' Query Parameter Name Configuration
+// ******************************************************************************
+//
+restfulApi.page.max = 'max'
+restfulApi.page.offset = 'offset'
+
+// ******************************************************************************
+//                       RESTful API Endpoint Configuration
+// ******************************************************************************
+//
+restfulApiConfig = {
+    marshallerGroups {
+        // this group will be used for all JSON representations
+        group 'defaultJson' marshallers {
+            marshaller {
+                instance = new ClosureObjectMarshaller<JSON>(Date, {
+                    return it?.format("yyyy-MM-dd'T'HH:mm:ssZ")
+                })
+                priority = 100
+            }
+        }
+    }
+
+    // handle any pluralized resource name by mapping it to the singularized service name,
+    // e.g. persons is handled by personService.
+    // Dynamic marshallers/extractors are used.
+    // If you want to whitelist only, remove the anyResource block and replace with
+    // definitions for specific resources.
+    anyResource {
+        representation {
+            mediaTypes = ["application/json"]
+            marshallers {
+                jsonDomainMarshaller {
+                    priority = 101
+                }
+                jsonBeanMarshaller {
+                    priority = 100
+                }
+                marshallerGroup 'defaultJson'
+            }
+            jsonExtractor {}
+        }
+    }
+}

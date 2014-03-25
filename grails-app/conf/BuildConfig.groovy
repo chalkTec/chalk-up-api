@@ -58,7 +58,13 @@ grails.project.dependency.resolution = {
         // plugins for the build system only
         build ":tomcat:7.0.52.1"
 
-        compile ":cache-headers:1.1.6"
+        compile ":restful-api:0.8.0"
+
+        compile ":inflector:0.2"    // required by restful-api, see https://github.com/restfulapi/restful-api
+        compile ":cache-headers:1.1.6"  // required by restful-api, see https://github.com/restfulapi/restful-api
+
+        test ":funky-spock:0.2.1"   // required by restful-api, see https://github.com/restfulapi/restful-api
+
         compile ':cache:1.1.1'
         runtime ":cors:1.1.4"
 
