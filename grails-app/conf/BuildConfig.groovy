@@ -48,7 +48,10 @@ grails.project.dependency.resolution = {
 
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes e.g.
-        runtime 'org.postgresql:postgresql:9.3-1100-jdbc41'
+
+        // see http://stackoverflow.com/questions/16019586/unsupported-major-minor-version-51-0-unable-to-load-class
+        // -org-postgresql-driver for which version of postgresql dependency to take for which Java version
+        runtime 'org.postgresql:postgresql:9.3-1100-jdbc4'
     }
 
     plugins {
