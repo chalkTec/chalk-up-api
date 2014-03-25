@@ -186,6 +186,11 @@ restfulApiConfig = {
                 jsonDomainMarshaller {
                     supports chalkup.gym.Gym
                     field 'floorPlans' deep true
+                    field 'dateCreated' name 'created'
+                    excludesFields {
+                        field 'lastUpdated'
+                        field 'routes'
+                    }
                 }
                 jsonDomainMarshaller {
                     supports chalkup.gym.FloorPlan
