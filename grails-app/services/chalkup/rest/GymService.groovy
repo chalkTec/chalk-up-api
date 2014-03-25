@@ -1,4 +1,4 @@
-package chalkup
+package chalkup.rest
 
 import chalkup.gym.Gym
 import grails.transaction.Transactional
