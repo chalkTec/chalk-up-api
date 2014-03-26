@@ -1,5 +1,7 @@
 package chalkup.rest
 
+import chalkup.exceptions.NotFoundException
+import chalkup.gym.Gym
 import chalkup.gym.Route
 import grails.transaction.Transactional
 
@@ -15,6 +17,9 @@ class RouteService {
         }
 
         if(gymId) {
+            if(!Gym.exists(gymId))
+                throw new NotFoundException(objectName: 'gym', objectId: gymId)
+
             criteria = criteria.where {
                 gym.id == gymId
             }
