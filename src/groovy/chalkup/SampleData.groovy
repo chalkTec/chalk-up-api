@@ -36,6 +36,7 @@ class SampleData {
         SportRoute r = new SportRoute(color: RouteColor.BLUE_WHITE_RED)
         r.location(fp, 0.5, 0.5)
         r.initialGrade = SportGrade.fromUiaaScale('7+')
+        r.name = "tolle Route"
         return r
     }
 
@@ -44,6 +45,7 @@ class SampleData {
         r.location(fp, 0.6, 0.5)
         r.initialGrade = SportGrade.fromUiaaScale('6-')
         r.end = new Date(114, 1, 1)
+        r.name = "super tolle Route"
         return r
     }
 
