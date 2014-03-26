@@ -1,3 +1,4 @@
+import chalkup.gym.*
 import grails.converters.JSON
 import org.codehaus.groovy.grails.web.converters.marshaller.ClosureObjectMarshaller
 
@@ -169,12 +170,167 @@ restfulApi.page.offset = 'offset'
 restfulApiConfig = {
     marshallerGroups {
         // this group will be used for all JSON representations
-        group 'defaultJson' marshallers {
+        group 'date' marshallers {
             marshaller {
                 instance = new ClosureObjectMarshaller<JSON>(Date, {
                     return it?.format("yyyy-MM-dd'T'HH:mm:ssZ")
                 })
                 priority = 100
+            }
+        }
+        group 'floorPlan' marshallers {
+            jsonDomainMarshaller {
+                supports chalkup.gym.FloorPlan
+                includesFields {}
+                additionalFields { Map map ->
+                    // use additional field mapping to wrap floor plan image properties in img JSON object
+                    def floorPlan = map['beanWrapper'].getWrappedInstance()
+                    def img = [:]
+                    img['widthInPx'] = floorPlan.widthInPx
+                    img['heightInPx'] = floorPlan.heightInPx
+                    img['url'] = floorPlan.imageUrl
+                    map['json'].property("img", img)
+                }
+            }
+        }
+        group 'routeColor' marshallers {
+            marshaller {
+                instance = new ClosureObjectMarshaller<JSON>(RouteColor, { RouteColor color ->
+                    def map = [:]
+                    map['name'] = color.toString();
+                    def messageSource = grailsApplication.mainContext.getBean('messageSource')
+                    map['germanName'] = messageSource.getMessage("chalkup.color.$color", null, Locale.GERMAN);
+                    map['englishName'] = messageSource.getMessage("chalkup.color.$color", null, Locale.ENGLISH);
+
+                    map['primary'] = RouteColor.asRgb(color.primaryColor)
+                    if (color.secondaryColor)
+                        map['secondary'] = RouteColor.asRgb(color.secondaryColor)
+                    if (color.ternaryColor)
+                        map['ternary'] = RouteColor.asRgb(color.ternaryColor)
+                    return map
+                })
+            }
+        }
+        group 'grades' marshallers {
+            marshaller {
+                instance = new ClosureObjectMarshaller<JSON>(Route.GradeCertainty, {
+                    it.toString()
+                })
+            }
+            marshaller {
+                instance = new ClosureObjectMarshaller<JSON>(BoulderGrade, { BoulderGrade grade ->
+                    def map = [:]
+                    map['value'] = grade.value
+                    map['font'] = grade.toFontScale()
+                    return map
+                })
+            }
+            marshaller {
+                instance = new ClosureObjectMarshaller<JSON>(SportGrade, { SportGrade grade ->
+                    def map = [:]
+                    map['value'] = grade.value
+                    map['uiaa'] = grade.toUiaaScale()
+                    return map
+                })
+            }
+        }
+    }
+
+    jsonDomainMarshallerTemplates {
+        template 'json-shortObject' config {
+            shortObject { Map map ->
+                def json = map['json']
+                def writer = json.getWriter()
+                def resource = map['resourceName']
+                def id = map['resourceId']
+                writer.object()
+                writer.key("link").value("/$resource/$id")
+                writer.key("id").value(id)
+                writer.endObject()
+            }
+        }
+    }
+
+    resource 'routes' config {
+        representation {
+            mediaTypes = ["application/json"]
+            marshallers {
+                jsonDomainMarshaller {
+                    supports chalkup.gym.Route
+                    inherits = ['json-shortObject']
+                    includesFields {
+                        field 'color'
+                        field 'dateCreated' name 'created'
+                        field 'location' deep true
+                        field 'gym'
+                    }
+                    additionalFields { Map map ->
+                        def json = map['json']
+                        def route = map['beanWrapper'].getWrappedInstance()
+
+                        if (route.name)
+                            json.property('name', route.name)
+                        if (route.description)
+                            json.property('description', route.description)
+                        if (route.end)
+                            json.property('end', route.end)
+
+                        // TODO: add route setter as soon as we have users
+                        // if(route.setter) {
+                        //  def setter = [:]
+                        //  setter['id'] = route.setter.id
+                        //  setter['nickname'] = route.setter.nickname
+                        //  json.property('setter', setter)
+                        // }
+
+                        if (route instanceof Boulder) {
+                            json.property('type', 'boulder')
+
+                            def initialGrade = [:]
+                            initialGrade['certainty'] = route.initialGradeCertainty
+                            initialGrade['readable'] = route.initialGrade
+                            switch (route.initialGradeCertainty) {
+                                case Route.GradeCertainty.ASSIGNED:
+                                    initialGrade['grade'] = route.assignedGrade
+                                    break;
+                                case Route.GradeCertainty.RANGE:
+                                    initialGrade['gradeLow'] = route.gradeRangeLow
+                                    initialGrade['gradeHigh'] = route.gradeRangeHigh
+                                    break;
+                            }
+                            json.property('initialGrade', initialGrade)
+
+                            // TODO: create photo as resource
+                            //if (route.hasPhoto()) {
+                            //    def photo = [:]
+                            //    // creation of link using controller, action, and ID does not work since the mapping involves HTTP
+                            //    // methods to actions
+                            //    photo['url'] = grailsLinkGenerator.link(['uri'     : "/rest/v1/boulders/$route.id/photo",
+                            //                                             'absolute': true])
+                            //    map['photo'] = photo
+                            //}
+                        } else if (route instanceof SportRoute) {
+                            json.property('type', 'sport-route')
+
+                            json.property('initialGrade', route.initialGrade)
+                        }
+
+                    }
+                }
+                jsonDomainMarshaller {
+                    supports chalkup.gym.Location
+                    includesFields {
+                        includesId false
+                        includesVersion false
+                        field 'floorPlan' deep true
+                        field 'x'
+                        field 'y'
+                    }
+                }
+                marshallerGroup 'grades'
+                marshallerGroup 'routeColor'
+                marshallerGroup 'floorPlan'
+                marshallerGroup 'date'
             }
         }
     }
@@ -191,43 +347,17 @@ restfulApiConfig = {
                         field 'lastUpdated'
                         field 'routes'
                     }
-                }
-                jsonDomainMarshaller {
-                    supports chalkup.gym.FloorPlan
                     additionalFields { Map map ->
-                        // use additional field mapping to wrap floor plan image properties in img JSON object
-                        def img = [:]
-                        img['widthInPx'] = map['beanWrapper'].getPropertyValue('widthInPx')
-                        img['heightInPx'] = map['beanWrapper'].getPropertyValue('heightInPx')
-                        img['url'] = map['beanWrapper'].getPropertyValue('imageUrl')
-                        map['json'].property("img", img)
+                        def routes = [:]
+                        routes["_link"] = "/rest/${map['resourceName']}/${map['resourceId']}/routes"
+                        map['json'].property('routes', routes)
                     }
-                    includesFields {}
                 }
-                marshallerGroup 'defaultJson'
+                marshallerGroup 'date'
+                marshallerGroup 'floorPlan'
             }
             jsonExtractor {}
         }
     }
 
-    // handle any pluralized resource name by mapping it to the singularized service name,
-    // e.g. persons is handled by personService.
-    // Dynamic marshallers/extractors are used.
-    // If you want to whitelist only, remove the anyResource block and replace with
-    // definitions for specific resources.
-    anyResource {
-        representation {
-            mediaTypes = ["application/json"]
-            marshallers {
-                jsonDomainMarshaller {
-                    priority = 101
-                }
-                jsonBeanMarshaller {
-                    priority = 100
-                }
-                marshallerGroup 'defaultJson'
-            }
-            jsonExtractor {}
-        }
-    }
 }

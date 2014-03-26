@@ -4,7 +4,7 @@ class Gym {
 
     String name
 
-    static hasMany = [floorPlans: FloorPlan]
+    static hasMany = [floorPlans: FloorPlan, routes: Route]
 
     static constraints = {
         name blank: false
@@ -16,6 +16,7 @@ class Gym {
     Gym(String name) {
         this.name = name
         this.floorPlans = [] as Set
+        this.routes = [] as Set
     }
 
 }
