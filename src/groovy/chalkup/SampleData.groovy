@@ -37,6 +37,7 @@ class SampleData {
         r.location(fp, 0.5, 0.5)
         r.initialGrade = SportGrade.fromUiaaScale('7+')
         r.name = "tolle Route"
+        r.number = 42
         return r
     }
 
@@ -46,6 +47,7 @@ class SampleData {
         r.initialGrade = SportGrade.fromUiaaScale('6-')
         r.end = new Date(114, 1, 1)
         r.name = "super tolle Route"
+        r.number = 33
         return r
     }
 

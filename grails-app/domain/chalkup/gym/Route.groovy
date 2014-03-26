@@ -15,6 +15,7 @@ abstract class Route {
         foreignId nullable: true, unique: 'gym'
 
         name nullable: true
+        number nullable: true
         description nullable: true
         end nullable: true
     }
@@ -23,7 +24,10 @@ abstract class Route {
 
     static hasOne = [location: Location]
 
+
     String name
+
+    Integer number
 
     Long foreignId
 
