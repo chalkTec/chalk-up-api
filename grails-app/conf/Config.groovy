@@ -349,7 +349,7 @@ restfulApiConfig = {
                     }
                     additionalFields { Map map ->
                         def routes = [:]
-                        routes["_link"] = "/rest/${map['resourceName']}/${map['resourceId']}/routes"
+                        routes["current"] = "/rest/${map['resourceName']}/${map['resourceId']}/routes"
                         map['json'].property('routes', routes)
                     }
                 }
