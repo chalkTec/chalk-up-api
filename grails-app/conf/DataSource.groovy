@@ -38,6 +38,21 @@ environments {
             url = "jdbc:postgresql://" + uri.host + uri.path
             username = uri.userInfo.split(":")[0]
             password = uri.userInfo.split(":")[1]
+
+            properties {
+                initialSize = 8
+                maxActive = 8
+                maxIdle = 8
+                maxWait = 10000 // no connection can be retrieved from the pool within this time => exception
+                maxAge = 10 * 60000
+                timeBetweenEvictionRunsMillis = 5000
+                minEvictableIdleTimeMillis = 60000
+                testWhileIdle = true
+                validationQuery = "SELECT 1"
+                validationQueryTimeout = 3
+                testOnBorrow = true
+                testOnReturn = false
+            }
         }
     }
 }
