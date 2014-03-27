@@ -1,17 +1,9 @@
 package chalkup.gym
 
-import javax.imageio.ImageIO
-import java.awt.*
-
 class Boulder extends Route {
 
     static mapping = {
         discriminator "boulder"
-    }
-
-    static constraints = {
-        // Limit upload file size to 5MB
-        photoAsJpg maxSize: 1024 * 1024 * 5, nullable: true
     }
 
     static embedded = ['initialGradeRangeLow', 'initialGradeRangeHigh']
@@ -19,42 +11,9 @@ class Boulder extends Route {
     GradeCertainty initialGradeCertainty
     BoulderGrade initialGradeRangeLow, initialGradeRangeHigh
 
-    byte[] photoAsJpg
-
-
-    static transients = ['photo']
-
     public Boulder() {
         this.initialGradeRangeLow = BoulderGrade.zero()
         this.initialGradeRangeHigh = BoulderGrade.zero()
-    }
-
-
-    public void removePhoto() {
-        photoAsJpg = null
-    }
-
-    public void setPhoto(Image image) {
-        ByteArrayOutputStream out = new ByteArrayOutputStream();
-        ImageIO.write(image, "JPG", out)
-        photoAsJpg = out.toByteArray()
-    }
-
-    public Image setPhotoFromInputStream(InputStream input) {
-        Image image = ImageIO.read(input)
-        setPhoto(image)
-    }
-
-    public boolean hasPhoto() {
-        return photoAsJpg != null
-    }
-
-    public Image getPhoto() {
-        return ImageIO.read(getPhotoAsInputStream())
-    }
-
-    public InputStream getPhotoAsInputStream() {
-        return new ByteArrayInputStream(photoAsJpg)
     }
 
     public void assignedGrade(BoulderGrade grade) {
