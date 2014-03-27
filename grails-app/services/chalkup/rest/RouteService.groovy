@@ -8,7 +8,8 @@ import grails.transaction.Transactional
 @Transactional
 class RouteService {
 
-    def criteria(gymId, dateParam) {
+    def criteria(params) {
+        def dateParam = params['date']
         // TODO: properly parse data parameter in case it is given
         Date date = dateParam ? new Date() : new Date()
 
@@ -16,24 +17,30 @@ class RouteService {
             end == null || end >= date
         }
 
-        if(gymId) {
-            if(!Gym.exists(gymId))
-                throw new NotFoundException(objectName: 'gym', objectId: gymId)
+        def parent = params['parentPluralizedResourceName']
+        if(parent) {
+            if(parent != 'gyms')
+                throw new NotFoundException(objectName: parent, objectId: params['parentId'])
+
+            def gymIdParam = params['parentId']
+
+            if(!Gym.exists(gymIdParam))
+                throw new NotFoundException(objectName: 'gym', objectId: gymIdParam)
 
             criteria = criteria.where {
-                gym.id == gymId
+                gym.id == gymIdParam
             }
         }
         return criteria
     }
 
     def list(def params) {
-        def criteria = criteria(params['parentId'], params['date'])
+        def criteria = criteria(params)
         return criteria.list()
     }
 
     def count(def params) {
-        def criteria = criteria(params['parentId'], params['date'])
+        def criteria = criteria(params)
         return criteria.count()
     }
 
