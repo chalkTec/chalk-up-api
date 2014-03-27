@@ -9,6 +9,7 @@ abstract class Route {
     static mapping = {
         end column: '"end"'
         discriminator column: "route_type"
+        location fetch: 'join'
     }
 
     static constraints = {
