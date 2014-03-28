@@ -19,6 +19,7 @@ abstract class Route {
         number nullable: true
         description nullable: true
         end nullable: true
+        dateSet nullable: true
     }
 
     static belongsTo = [gym: Gym]
@@ -40,6 +41,7 @@ abstract class Route {
     Date dateCreated
     Date lastUpdated
 
+    Date dateSet
 
     Date end
 
