@@ -28,7 +28,7 @@ abstract class Route {
 
     String name
 
-    Integer number
+    String number
 
     Long foreignId
 

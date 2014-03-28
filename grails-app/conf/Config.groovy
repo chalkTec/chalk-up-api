@@ -270,6 +270,8 @@ restfulApiConfig = {
 
                         if (route.name)
                             json.property('name', route.name)
+                        if (route.number)
+                            json.property('number', route.name)
                         if (route.description)
                             json.property('description', route.description)
                         if (route.end)
