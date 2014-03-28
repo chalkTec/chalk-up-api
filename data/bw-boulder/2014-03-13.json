@@ -1,0 +1,11764 @@
+[
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "5+"
+      }
+    },
+    "foreignId": 3950,
+    "location": {
+      "y": 0.5154343144292893,
+      "x": 0.771,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6"
+      }
+    },
+    "foreignId": 3956,
+    "location": {
+      "y": 0.2756640344580043,
+      "x": 0.737,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7+"
+      }
+    },
+    "foreignId": 4004,
+    "location": {
+      "y": 0.5039483129935391,
+      "x": 0.758,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "9"
+      }
+    },
+    "foreignId": 4005,
+    "location": {
+      "y": 0.35750179468772436,
+      "x": 0.792,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "8+"
+      }
+    },
+    "foreignId": 4017,
+    "location": {
+      "y": 0.2770997846374731,
+      "x": 0.729,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7-"
+      }
+    },
+    "foreignId": 4020,
+    "location": {
+      "y": 0.3402727925340991,
+      "x": 0.633,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7+"
+      }
+    },
+    "foreignId": 4021,
+    "location": {
+      "y": 0.29863603732950467,
+      "x": 0.696,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7"
+      }
+    },
+    "foreignId": 4030,
+    "location": {
+      "y": 0.30294328786791097,
+      "x": 0.796,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "8+"
+      }
+    },
+    "foreignId": 4031,
+    "location": {
+      "y": 0.3287867910983489,
+      "x": 0.67,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "8"
+      }
+    },
+    "foreignId": 4032,
+    "location": {
+      "y": 0.3273510409188801,
+      "x": 0.697,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6+"
+      }
+    },
+    "foreignId": 4033,
+    "location": {
+      "y": 0.4766690595836324,
+      "x": 0.759,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "9-"
+      }
+    },
+    "foreignId": 4042,
+    "location": {
+      "y": 0.37760229720028715,
+      "x": 0.806,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6-"
+      }
+    },
+    "foreignId": 4043,
+    "location": {
+      "y": 0.29863603732950467,
+      "x": 0.689,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7-"
+      }
+    },
+    "foreignId": 4044,
+    "location": {
+      "y": 0.3589375448671931,
+      "x": 0.794,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "8-"
+      }
+    },
+    "foreignId": 4045,
+    "location": {
+      "y": 0.3948312993539124,
+      "x": 0.804,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6"
+      }
+    },
+    "foreignId": 4046,
+    "location": {
+      "y": 0.49820531227566406,
+      "x": 0.777,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "9+"
+      }
+    },
+    "foreignId": 4047,
+    "location": {
+      "y": 0.3287867910983489,
+      "x": 0.61,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "10-"
+      }
+    },
+    "foreignId": 4048,
+    "location": {
+      "y": 0.2871500358937545,
+      "x": 0.712,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "8-"
+      }
+    },
+    "foreignId": 4049,
+    "location": {
+      "y": 0.31586503948312994,
+      "x": 0.669,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7-"
+      }
+    },
+    "foreignId": 4100,
+    "location": {
+      "y": 0.2828427853553482,
+      "x": 0.71,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7-"
+      }
+    },
+    "foreignId": 4105,
+    "location": {
+      "y": 0.38621679827709976,
+      "x": 0.786,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7a"
+      }
+    },
+    "foreignId": 3969,
+    "location": {
+      "y": 0.8872936109117013,
+      "x": 0.446,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 3970,
+    "location": {
+      "y": 0.9030868628858578,
+      "x": 0.484,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7a+"
+      }
+    },
+    "foreignId": 3971,
+    "location": {
+      "y": 0.8786791098348887,
+      "x": 0.457,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6c"
+      }
+    },
+    "foreignId": 3972,
+    "location": {
+      "y": 0.8801148600143575,
+      "x": 0.421,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6a+"
+      }
+    },
+    "foreignId": 4015,
+    "location": {
+      "y": 0.9045226130653267,
+      "x": 0.463,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6b+"
+      }
+    },
+    "foreignId": 4016,
+    "location": {
+      "y": 0.908829863603733,
+      "x": 0.495,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "8a"
+      }
+    },
+    "foreignId": 4023,
+    "location": {
+      "y": 0.9217516152189519,
+      "x": 0.367,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7b+"
+      }
+    },
+    "foreignId": 4024,
+    "location": {
+      "y": 0.8341708542713567,
+      "x": 0.382,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4025,
+    "location": {
+      "y": 0.8887293610911702,
+      "x": 0.304,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6a+"
+      }
+    },
+    "foreignId": 4026,
+    "location": {
+      "y": 0.8930366116295765,
+      "x": 0.365,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 4027,
+    "location": {
+      "y": 0.8384781048097631,
+      "x": 0.267,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7b+"
+      }
+    },
+    "foreignId": 4028,
+    "location": {
+      "y": 0.8241206030150754,
+      "x": 0.272,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6c"
+      }
+    },
+    "foreignId": 4029,
+    "location": {
+      "y": 0.8729361091170137,
+      "x": 0.309,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 4037,
+    "location": {
+      "y": 0.914572864321608,
+      "x": 0.344,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4038,
+    "location": {
+      "y": 0.9016511127063891,
+      "x": 0.324,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "8a+"
+      }
+    },
+    "foreignId": 4039,
+    "location": {
+      "y": 0.8671931083991385,
+      "x": 0.483,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "8a+"
+      }
+    },
+    "foreignId": 4040,
+    "location": {
+      "y": 0.8686288585786073,
+      "x": 0.457,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6b+"
+      }
+    },
+    "foreignId": 4041,
+    "location": {
+      "y": 0.8356066044508256,
+      "x": 0.285,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7a"
+      }
+    },
+    "foreignId": 4101,
+    "location": {
+      "y": 0.7537688442211056,
+      "x": 0.124,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7b+"
+      }
+    },
+    "foreignId": 4158,
+    "location": {
+      "y": 0.8212491026561378,
+      "x": 0.179,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4159,
+    "location": {
+      "y": 0.8542713567839196,
+      "x": 0.179,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7a+"
+      }
+    },
+    "foreignId": 4160,
+    "location": {
+      "y": 0.8413496051687006,
+      "x": 0.247,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7b+"
+      }
+    },
+    "foreignId": 4161,
+    "location": {
+      "y": 0.8413496051687006,
+      "x": 0.18,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4162,
+    "location": {
+      "y": 0.8557071069633884,
+      "x": 0.206,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6b+"
+      }
+    },
+    "foreignId": 4163,
+    "location": {
+      "y": 0.8528356066044508,
+      "x": 0.224,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7c"
+      }
+    },
+    "foreignId": 4189,
+    "location": {
+      "y": 0.864321608040201,
+      "x": 0.256,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 4190,
+    "location": {
+      "y": 0.826992103374013,
+      "x": 0.247,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7a+"
+      }
+    },
+    "foreignId": 4191,
+    "location": {
+      "y": 0.8442211055276382,
+      "x": 0.198,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7a"
+      }
+    },
+    "foreignId": 4192,
+    "location": {
+      "y": 0.8686288585786073,
+      "x": 0.235,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4196,
+    "location": {
+      "y": 0.9289303661162958,
+      "x": 0.382,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4197,
+    "location": {
+      "y": 0.8959081119885139,
+      "x": 0.251,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6c"
+      }
+    },
+    "foreignId": 4198,
+    "location": {
+      "y": 0.9246231155778895,
+      "x": 0.474,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4199,
+    "location": {
+      "y": 0.8169418521177315,
+      "x": 0.369,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6c"
+      }
+    },
+    "foreignId": 4202,
+    "location": {
+      "y": 0.8743718592964824,
+      "x": 0.494,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7c"
+      }
+    },
+    "foreignId": 4203,
+    "location": {
+      "y": 0.8729361091170137,
+      "x": 0.437,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7c"
+      }
+    },
+    "foreignId": 4206,
+    "location": {
+      "y": 0.8801148600143575,
+      "x": 0.618,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4207,
+    "location": {
+      "y": 0.8729361091170137,
+      "x": 0.637,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6b+"
+      }
+    },
+    "foreignId": 4209,
+    "location": {
+      "y": 0.8901651112706389,
+      "x": 0.533,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4210,
+    "location": {
+      "y": 0.8973438621679828,
+      "x": 0.628,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6a+"
+      }
+    },
+    "foreignId": 4211,
+    "location": {
+      "y": 0.8700646087580761,
+      "x": 0.652,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4212,
+    "location": {
+      "y": 0.8858578607322326,
+      "x": 0.567,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7b+"
+      }
+    },
+    "foreignId": 4249,
+    "location": {
+      "y": 0.8758076094759512,
+      "x": 0.669,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 4250,
+    "location": {
+      "y": 0.8743718592964824,
+      "x": 0.619,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "7a+"
+      }
+    },
+    "foreignId": 4251,
+    "location": {
+      "y": 0.8844221105527639,
+      "x": 0.593,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4252,
+    "location": {
+      "y": 0.8786791098348887,
+      "x": 0.516,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4253,
+    "location": {
+      "y": 0.8872936109117013,
+      "x": 0.545,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6c"
+      }
+    },
+    "foreignId": 4254,
+    "location": {
+      "y": 0.8815506101938263,
+      "x": 0.594,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6b+"
+      }
+    },
+    "foreignId": 4359,
+    "location": {
+      "y": 0.8614501076812635,
+      "x": 0.653,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6c"
+      }
+    },
+    "foreignId": 4360,
+    "location": {
+      "y": 0.8743718592964824,
+      "x": 0.592,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "ASSIGNED",
+      "grade": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 4361,
+    "location": {
+      "y": 0.87724335965542,
+      "x": 0.536,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4050,
+    "location": {
+      "y": 0.5685570710696339,
+      "x": 0.651,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4051,
+    "location": {
+      "y": 0.6044508255563532,
+      "x": 0.623,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4088,
+    "location": {
+      "y": 0.7408470926058865,
+      "x": 0.125,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4089,
+    "location": {
+      "y": 0.9203158650394831,
+      "x": 0.104,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4090,
+    "location": {
+      "y": 0.6547020818377602,
+      "x": 0.123,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4091,
+    "location": {
+      "y": 0.5900933237616655,
+      "x": 0.125,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4092,
+    "location": {
+      "y": 0.49246231155778897,
+      "x": 0.229,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4093,
+    "location": {
+      "y": 0.3445800430725054,
+      "x": 0.18,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4094,
+    "location": {
+      "y": 0.37616654702081836,
+      "x": 0.28,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4095,
+    "location": {
+      "y": 0.5283560660445082,
+      "x": 0.344,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4096,
+    "location": {
+      "y": 0.4637473079684135,
+      "x": 0.597,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4097,
+    "location": {
+      "y": 0.9332376166547021,
+      "x": 0.164,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4106,
+    "location": {
+      "y": 0.43072505384063176,
+      "x": 0.192,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4107,
+    "location": {
+      "y": 0.2440775305096913,
+      "x": 0.177,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4108,
+    "location": {
+      "y": 0.25125628140703515,
+      "x": 0.436,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4109,
+    "location": {
+      "y": 0.25699928212491024,
+      "x": 0.222,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4112,
+    "location": {
+      "y": 0.5139985642498205,
+      "x": 0.676,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4113,
+    "location": {
+      "y": 0.4192390524048816,
+      "x": 0.602,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4114,
+    "location": {
+      "y": 0.5915290739411343,
+      "x": 0.556,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4115,
+    "location": {
+      "y": 0.5226130653266332,
+      "x": 0.429,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4116,
+    "location": {
+      "y": 0.39770279971284994,
+      "x": 0.424,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4117,
+    "location": {
+      "y": 0.5025125628140703,
+      "x": 0.344,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4118,
+    "location": {
+      "y": 0.43933955491744436,
+      "x": 0.31,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4119,
+    "location": {
+      "y": 0.36180904522613067,
+      "x": 0.334,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4120,
+    "location": {
+      "y": 0.23546302943287867,
+      "x": 0.257,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4121,
+    "location": {
+      "y": 0.35175879396984927,
+      "x": 0.309,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4122,
+    "location": {
+      "y": 0.5800430725053841,
+      "x": 0.377,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4123,
+    "location": {
+      "y": 0.6159368269921034,
+      "x": 0.426,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4124,
+    "location": {
+      "y": 0.5470208183776023,
+      "x": 0.032,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4125,
+    "location": {
+      "y": 0.19669777458722182,
+      "x": 0.355,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4126,
+    "location": {
+      "y": 0.3173007896625987,
+      "x": 0.438,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4127,
+    "location": {
+      "y": 0.30294328786791097,
+      "x": 0.428,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4130,
+    "location": {
+      "y": 0.5556353194544149,
+      "x": 0.296,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4131,
+    "location": {
+      "y": 0.5039483129935391,
+      "x": 0.277,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4132,
+    "location": {
+      "y": 0.44221105527638194,
+      "x": 0.275,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4133,
+    "location": {
+      "y": 0.1665470208183776,
+      "x": 0.179,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4134,
+    "location": {
+      "y": 0.18808327351040918,
+      "x": 0.268,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4135,
+    "location": {
+      "y": 0.35175879396984927,
+      "x": 0.229,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4136,
+    "location": {
+      "y": 0.4867193108399139,
+      "x": 0.429,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4165,
+    "location": {
+      "y": 0.9160086145010768,
+      "x": 0.016,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4166,
+    "location": {
+      "y": 0.8169418521177315,
+      "x": 0.015,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4167,
+    "location": {
+      "y": 0.669059583632448,
+      "x": 0.562,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4168,
+    "location": {
+      "y": 0.669059583632448,
+      "x": 0.596,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8b"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4188,
+    "location": {
+      "y": 0.26274228284278534,
+      "x": 0.387,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 3301,
+    "location": {
+      "y": 0.6503948312993539,
+      "x": 0.12,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 3302,
+    "location": {
+      "y": 0.6317300789662599,
+      "x": 0.658,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 3469,
+    "location": {
+      "y": 0.542713567839196,
+      "x": 0.311,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 3470,
+    "location": {
+      "y": 0.49820531227566406,
+      "x": 0.405,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 3471,
+    "location": {
+      "y": 0.592964824120603,
+      "x": 0.558,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 3472,
+    "location": {
+      "y": 0.4953338119167265,
+      "x": 0.556,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 3473,
+    "location": {
+      "y": 0.4221105527638191,
+      "x": 0.552,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 3625,
+    "location": {
+      "y": 0.6015793251974156,
+      "x": 0.434,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 3626,
+    "location": {
+      "y": 0.5900933237616655,
+      "x": 0.381,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 3627,
+    "location": {
+      "y": 0.45513280689160085,
+      "x": 0.284,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 3628,
+    "location": {
+      "y": 0.4996410624551328,
+      "x": 0.229,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 3629,
+    "location": {
+      "y": 0.44221105527638194,
+      "x": 0.21,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 3630,
+    "location": {
+      "y": 0.16941852117731515,
+      "x": 0.17,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 3631,
+    "location": {
+      "y": 0.353194544149318,
+      "x": 0.308,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 3632,
+    "location": {
+      "y": 0.29002153625269206,
+      "x": 0.408,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 3633,
+    "location": {
+      "y": 0.4824120603015075,
+      "x": 0.316,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PINK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 3634,
+    "location": {
+      "y": 0.31442928930366115,
+      "x": 0.236,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4213,
+    "location": {
+      "y": 0.35750179468772436,
+      "x": 0.4,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4214,
+    "location": {
+      "y": 0.39339554917444364,
+      "x": 0.421,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4215,
+    "location": {
+      "y": 0.3273510409188801,
+      "x": 0.418,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4216,
+    "location": {
+      "y": 0.37903804737975594,
+      "x": 0.438,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4217,
+    "location": {
+      "y": 0.30294328786791097,
+      "x": 0.439,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4218,
+    "location": {
+      "y": 0.25843503230437903,
+      "x": 0.432,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4219,
+    "location": {
+      "y": 0.208183776022972,
+      "x": 0.396,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4220,
+    "location": {
+      "y": 0.19382627422828427,
+      "x": 0.36,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4222,
+    "location": {
+      "y": 0.5197415649676956,
+      "x": 0.385,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4223,
+    "location": {
+      "y": 0.5470208183776023,
+      "x": 0.294,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4224,
+    "location": {
+      "y": 0.49820531227566406,
+      "x": 0.281,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4225,
+    "location": {
+      "y": 0.45226130653266333,
+      "x": 0.28,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4226,
+    "location": {
+      "y": 0.36611629576453697,
+      "x": 0.253,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4227,
+    "location": {
+      "y": 0.3417085427135678,
+      "x": 0.236,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4228,
+    "location": {
+      "y": 0.22110552763819097,
+      "x": 0.232,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4229,
+    "location": {
+      "y": 0.19382627422828427,
+      "x": 0.269,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4230,
+    "location": {
+      "y": 0.3460157932519742,
+      "x": 0.275,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4231,
+    "location": {
+      "y": 0.35175879396984927,
+      "x": 0.326,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4232,
+    "location": {
+      "y": 0.5183058147882269,
+      "x": 0.433,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4233,
+    "location": {
+      "y": 0.6116295764536971,
+      "x": 0.686,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4234,
+    "location": {
+      "y": 0.5326633165829145,
+      "x": 0.684,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4235,
+    "location": {
+      "y": 0.45656855707106964,
+      "x": 0.633,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4236,
+    "location": {
+      "y": 0.4264178033022254,
+      "x": 0.182,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4237,
+    "location": {
+      "y": 0.4938980617372577,
+      "x": 0.421,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4238,
+    "location": {
+      "y": 0.8887293610911702,
+      "x": 0.169,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4239,
+    "location": {
+      "y": 0.9246231155778895,
+      "x": 0.02,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4240,
+    "location": {
+      "y": 0.8743718592964824,
+      "x": 0.017,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4241,
+    "location": {
+      "y": 0.8140703517587939,
+      "x": 0.011,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4242,
+    "location": {
+      "y": 0.6259870782483847,
+      "x": 0.016,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4243,
+    "location": {
+      "y": 0.5886575735821967,
+      "x": 0.013,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4244,
+    "location": {
+      "y": 0.548456568557071,
+      "x": 0.015,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4245,
+    "location": {
+      "y": 0.5498923187365399,
+      "x": 0.044,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4246,
+    "location": {
+      "y": 0.5513280689160086,
+      "x": 0.072,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK/BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "2c"
+      },
+      "gradeLow": {
+        "font": "1a"
+      }
+    },
+    "foreignId": 4247,
+    "location": {
+      "y": 0.5541995692749462,
+      "x": 0.132,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4283,
+    "location": {
+      "y": 0.5441493180186647,
+      "x": 0.292,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4284,
+    "location": {
+      "y": 0.5068198133524767,
+      "x": 0.283,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4285,
+    "location": {
+      "y": 0.44508255563531945,
+      "x": 0.282,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4286,
+    "location": {
+      "y": 0.3646805455850682,
+      "x": 0.262,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4287,
+    "location": {
+      "y": 0.5240488155061019,
+      "x": 0.231,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4288,
+    "location": {
+      "y": 0.45944005743000715,
+      "x": 0.228,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4289,
+    "location": {
+      "y": 0.44077530509691315,
+      "x": 0.188,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4290,
+    "location": {
+      "y": 0.30007178750897345,
+      "x": 0.171,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4291,
+    "location": {
+      "y": 0.19239052404881551,
+      "x": 0.17,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4292,
+    "location": {
+      "y": 0.21823402727925342,
+      "x": 0.236,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4293,
+    "location": {
+      "y": 0.542713567839196,
+      "x": 0.316,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4294,
+    "location": {
+      "y": 0.5240488155061019,
+      "x": 0.387,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4295,
+    "location": {
+      "y": 0.5900933237616655,
+      "x": 0.375,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4296,
+    "location": {
+      "y": 0.5613783201722901,
+      "x": 0.448,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4297,
+    "location": {
+      "y": 0.38621679827709976,
+      "x": 0.405,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4298,
+    "location": {
+      "y": 0.3287867910983489,
+      "x": 0.443,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4299,
+    "location": {
+      "y": 0.2656137832017229,
+      "x": 0.439,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4306,
+    "location": {
+      "y": 0.5197415649676956,
+      "x": 0.434,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4307,
+    "location": {
+      "y": 0.6015793251974156,
+      "x": 0.549,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4308,
+    "location": {
+      "y": 0.3173007896625987,
+      "x": 0.417,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4309,
+    "location": {
+      "y": 0.2139267767408471,
+      "x": 0.398,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4310,
+    "location": {
+      "y": 0.19526202440775306,
+      "x": 0.361,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4311,
+    "location": {
+      "y": 0.25269203158650394,
+      "x": 0.356,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4312,
+    "location": {
+      "y": 0.3460157932519742,
+      "x": 0.314,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4318,
+    "location": {
+      "y": 0.46661880832735103,
+      "x": 0.633,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4319,
+    "location": {
+      "y": 0.45656855707106964,
+      "x": 0.589,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4320,
+    "location": {
+      "y": 0.2972002871500359,
+      "x": 0.233,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4332,
+    "location": {
+      "y": 0.7882268485283561,
+      "x": 0.02,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4333,
+    "location": {
+      "y": 0.5513280689160086,
+      "x": 0.085,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4334,
+    "location": {
+      "y": 0.5527638190954773,
+      "x": 0.019,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4335,
+    "location": {
+      "y": 0.6231155778894473,
+      "x": 0.017,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4349,
+    "location": {
+      "y": 0.1981335247666906,
+      "x": 0.263,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4351,
+    "location": {
+      "y": 0.3445800430725054,
+      "x": 0.274,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4352,
+    "location": {
+      "y": 0.2972002871500359,
+      "x": 0.265,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4353,
+    "location": {
+      "y": 0.23259152907394112,
+      "x": 0.266,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4354,
+    "location": {
+      "y": 0.49676956209619527,
+      "x": 0.441,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4355,
+    "location": {
+      "y": 0.49820531227566406,
+      "x": 0.407,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4356,
+    "location": {
+      "y": 0.548456568557071,
+      "x": 0.137,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4357,
+    "location": {
+      "y": 0.38334529791816224,
+      "x": 0.328,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "GREEN"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "4a"
+      },
+      "gradeLow": {
+        "font": "3a"
+      }
+    },
+    "foreignId": 4358,
+    "location": {
+      "y": 0.4580043072505384,
+      "x": 0.316,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4255,
+    "location": {
+      "y": 0.5139985642498205,
+      "x": 0.676,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4256,
+    "location": {
+      "y": 0.6661880832735104,
+      "x": 0.609,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4257,
+    "location": {
+      "y": 0.5527638190954773,
+      "x": 0.131,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4258,
+    "location": {
+      "y": 0.5498923187365399,
+      "x": 0.09,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4259,
+    "location": {
+      "y": 0.8801148600143575,
+      "x": 0.171,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4260,
+    "location": {
+      "y": 0.4781048097631012,
+      "x": 0.231,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4261,
+    "location": {
+      "y": 0.3474515434314429,
+      "x": 0.272,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4262,
+    "location": {
+      "y": 0.23115577889447236,
+      "x": 0.264,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4263,
+    "location": {
+      "y": 0.1981335247666906,
+      "x": 0.34,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4264,
+    "location": {
+      "y": 0.19669777458722182,
+      "x": 0.392,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4265,
+    "location": {
+      "y": 0.271356783919598,
+      "x": 0.442,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4266,
+    "location": {
+      "y": 0.416367552045944,
+      "x": 0.6,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4267,
+    "location": {
+      "y": 0.3445800430725054,
+      "x": 0.4,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4272,
+    "location": {
+      "y": 0.19526202440775306,
+      "x": 0.171,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4273,
+    "location": {
+      "y": 0.3402727925340991,
+      "x": 0.441,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4274,
+    "location": {
+      "y": 0.6044508255563532,
+      "x": 0.438,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4275,
+    "location": {
+      "y": 0.542713567839196,
+      "x": 0.286,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4276,
+    "location": {
+      "y": 0.5211773151471644,
+      "x": 0.354,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4277,
+    "location": {
+      "y": 0.6101938262742282,
+      "x": 0.389,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4278,
+    "location": {
+      "y": 0.4020100502512563,
+      "x": 0.427,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4279,
+    "location": {
+      "y": 0.36611629576453697,
+      "x": 0.247,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4280,
+    "location": {
+      "y": 0.6704953338119167,
+      "x": 0.556,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4281,
+    "location": {
+      "y": 0.6202440775305097,
+      "x": 0.704,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4282,
+    "location": {
+      "y": 0.44651830581478824,
+      "x": 0.311,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4300,
+    "location": {
+      "y": 0.30581478822684854,
+      "x": 0.422,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4301,
+    "location": {
+      "y": 0.24694903086862885,
+      "x": 0.348,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4302,
+    "location": {
+      "y": 0.2799712849964106,
+      "x": 0.231,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4321,
+    "location": {
+      "y": 0.4623115577889447,
+      "x": 0.636,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4322,
+    "location": {
+      "y": 0.6073223259152908,
+      "x": 0.646,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4323,
+    "location": {
+      "y": 0.5771715721464465,
+      "x": 0.583,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4324,
+    "location": {
+      "y": 0.4852835606604451,
+      "x": 0.586,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4325,
+    "location": {
+      "y": 0.38334529791816224,
+      "x": 0.304,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4326,
+    "location": {
+      "y": 0.47954055994257,
+      "x": 0.362,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4327,
+    "location": {
+      "y": 0.26274228284278534,
+      "x": 0.17,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4328,
+    "location": {
+      "y": 0.4379038047379756,
+      "x": 0.219,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4329,
+    "location": {
+      "y": 0.416367552045944,
+      "x": 0.182,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4330,
+    "location": {
+      "y": 0.3503230437903805,
+      "x": 0.177,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "YELLOW"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5a"
+      },
+      "gradeLow": {
+        "font": "4a"
+      }
+    },
+    "foreignId": 4331,
+    "location": {
+      "y": 0.19669777458722182,
+      "x": 0.269,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4389,
+    "location": {
+      "y": 0.5585068198133525,
+      "x": 0.372,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4390,
+    "location": {
+      "y": 0.6116295764536971,
+      "x": 0.402,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4391,
+    "location": {
+      "y": 0.656137832017229,
+      "x": 0.598,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4392,
+    "location": {
+      "y": 0.5800430725053841,
+      "x": 0.579,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4393,
+    "location": {
+      "y": 0.5010768126346016,
+      "x": 0.43,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4394,
+    "location": {
+      "y": 0.5470208183776023,
+      "x": 0.03,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4395,
+    "location": {
+      "y": 0.5369705671213209,
+      "x": 0.319,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4396,
+    "location": {
+      "y": 0.5541995692749462,
+      "x": 0.439,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4397,
+    "location": {
+      "y": 0.38478104809763103,
+      "x": 0.298,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4398,
+    "location": {
+      "y": 0.2498205312275664,
+      "x": 0.233,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4399,
+    "location": {
+      "y": 0.44508255563531945,
+      "x": 0.615,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4400,
+    "location": {
+      "y": 0.4867193108399139,
+      "x": 0.646,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4401,
+    "location": {
+      "y": 0.5053840631730079,
+      "x": 0.607,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4402,
+    "location": {
+      "y": 0.6173725771715721,
+      "x": 0.016,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4403,
+    "location": {
+      "y": 0.8413496051687006,
+      "x": 0.176,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4404,
+    "location": {
+      "y": 0.19526202440775306,
+      "x": 0.255,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4405,
+    "location": {
+      "y": 0.6604450825556353,
+      "x": 0.559,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4406,
+    "location": {
+      "y": 0.8140703517587939,
+      "x": 0.017,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4407,
+    "location": {
+      "y": 0.5541995692749462,
+      "x": 0.082,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4408,
+    "location": {
+      "y": 0.542713567839196,
+      "x": 0.282,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4409,
+    "location": {
+      "y": 0.44651830581478824,
+      "x": 0.231,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4410,
+    "location": {
+      "y": 0.2096195262024408,
+      "x": 0.399,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4411,
+    "location": {
+      "y": 0.7738693467336684,
+      "x": 0.123,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4412,
+    "location": {
+      "y": 0.548456568557071,
+      "x": 0.131,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4413,
+    "location": {
+      "y": 0.31155778894472363,
+      "x": 0.443,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4414,
+    "location": {
+      "y": 0.2613065326633166,
+      "x": 0.426,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4415,
+    "location": {
+      "y": 0.5168700646087581,
+      "x": 0.361,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4416,
+    "location": {
+      "y": 0.5369705671213209,
+      "x": 0.682,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4417,
+    "location": {
+      "y": 0.37760229720028715,
+      "x": 0.4,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4418,
+    "location": {
+      "y": 0.4766690595836324,
+      "x": 0.388,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4419,
+    "location": {
+      "y": 0.38334529791816224,
+      "x": 0.433,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4420,
+    "location": {
+      "y": 0.8959081119885139,
+      "x": 0.085,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4421,
+    "location": {
+      "y": 0.37185929648241206,
+      "x": 0.238,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4422,
+    "location": {
+      "y": 0.19526202440775306,
+      "x": 0.342,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4423,
+    "location": {
+      "y": 0.2455132806891601,
+      "x": 0.26,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4424,
+    "location": {
+      "y": 0.3488872936109117,
+      "x": 0.295,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4425,
+    "location": {
+      "y": 0.3503230437903805,
+      "x": 0.326,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "5c"
+      },
+      "gradeLow": {
+        "font": "5a"
+      }
+    },
+    "foreignId": 4426,
+    "location": {
+      "y": 0.29576453697056715,
+      "x": 0.411,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3877,
+    "location": {
+      "y": 0.6317300789662599,
+      "x": 0.546,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3878,
+    "location": {
+      "y": 0.5498923187365399,
+      "x": 0.572,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3879,
+    "location": {
+      "y": 0.43072505384063176,
+      "x": 0.547,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3880,
+    "location": {
+      "y": 0.6661880832735104,
+      "x": 0.578,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3881,
+    "location": {
+      "y": 0.6403445800430725,
+      "x": 0.662,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3885,
+    "location": {
+      "y": 0.5829145728643216,
+      "x": 0.44,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3886,
+    "location": {
+      "y": 0.5139985642498205,
+      "x": 0.385,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3887,
+    "location": {
+      "y": 0.511127063890883,
+      "x": 0.228,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3888,
+    "location": {
+      "y": 0.42928930366116297,
+      "x": 0.285,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3903,
+    "location": {
+      "y": 0.5412778176597272,
+      "x": 0.313,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3904,
+    "location": {
+      "y": 0.45369705671213206,
+      "x": 0.31,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3905,
+    "location": {
+      "y": 0.6173725771715721,
+      "x": 0.399,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3906,
+    "location": {
+      "y": 0.4235463029432879,
+      "x": 0.608,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3907,
+    "location": {
+      "y": 0.4938980617372577,
+      "x": 0.434,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3913,
+    "location": {
+      "y": 0.2340272792534099,
+      "x": 0.265,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3914,
+    "location": {
+      "y": 0.31873653984206746,
+      "x": 0.269,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3915,
+    "location": {
+      "y": 0.3417085427135678,
+      "x": 0.318,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3916,
+    "location": {
+      "y": 0.24838478104809764,
+      "x": 0.343,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3917,
+    "location": {
+      "y": 0.18664752333094042,
+      "x": 0.354,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3918,
+    "location": {
+      "y": 0.2038765254845657,
+      "x": 0.401,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3919,
+    "location": {
+      "y": 0.2914572864321608,
+      "x": 0.449,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3920,
+    "location": {
+      "y": 0.37760229720028715,
+      "x": 0.448,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3921,
+    "location": {
+      "y": 0.3488872936109117,
+      "x": 0.393,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3922,
+    "location": {
+      "y": 0.31012203876525485,
+      "x": 0.416,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3923,
+    "location": {
+      "y": 0.4680545585068198,
+      "x": 0.377,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3958,
+    "location": {
+      "y": 0.16223977027997127,
+      "x": 0.17,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3959,
+    "location": {
+      "y": 0.33596554199569273,
+      "x": 0.236,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3962,
+    "location": {
+      "y": 0.8068916008614501,
+      "x": 0.174,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3963,
+    "location": {
+      "y": 0.8255563531945441,
+      "x": 0.168,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3965,
+    "location": {
+      "y": 0.8140703517587939,
+      "x": 0.108,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3966,
+    "location": {
+      "y": 0.7666905958363245,
+      "x": 0.106,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3974,
+    "location": {
+      "y": 0.5470208183776023,
+      "x": 0.119,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3975,
+    "location": {
+      "y": 0.6475233309404164,
+      "x": 0.119,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3976,
+    "location": {
+      "y": 0.5470208183776023,
+      "x": 0.053,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3977,
+    "location": {
+      "y": 0.5886575735821967,
+      "x": 0.013,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3978,
+    "location": {
+      "y": 0.5714285714285714,
+      "x": 0.094,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3979,
+    "location": {
+      "y": 0.8169418521177315,
+      "x": 0.013,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3980,
+    "location": {
+      "y": 0.2799712849964106,
+      "x": 0.165,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3981,
+    "location": {
+      "y": 0.24264178033022255,
+      "x": 0.232,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3982,
+    "location": {
+      "y": 0.19669777458722182,
+      "x": 0.249,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3983,
+    "location": {
+      "y": 0.36611629576453697,
+      "x": 0.259,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3989,
+    "location": {
+      "y": 0.3747307968413496,
+      "x": 0.289,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 3999,
+    "location": {
+      "y": 0.5570710696338838,
+      "x": 0.697,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 4000,
+    "location": {
+      "y": 0.4938980617372577,
+      "x": 0.653,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 4001,
+    "location": {
+      "y": 0.4379038047379756,
+      "x": 0.215,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "WHITE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6a+"
+      },
+      "gradeLow": {
+        "font": "5b"
+      }
+    },
+    "foreignId": 4002,
+    "location": {
+      "y": 0.4063173007896626,
+      "x": 0.181,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4363,
+    "location": {
+      "y": 0.5240488155061019,
+      "x": 0.618,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4364,
+    "location": {
+      "y": 0.6389088298636038,
+      "x": 0.619,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4365,
+    "location": {
+      "y": 0.6503948312993539,
+      "x": 0.577,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4366,
+    "location": {
+      "y": 0.5398420674802584,
+      "x": 0.385,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4367,
+    "location": {
+      "y": 0.542713567839196,
+      "x": 0.303,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4368,
+    "location": {
+      "y": 0.6934673366834171,
+      "x": 0.103,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4369,
+    "location": {
+      "y": 0.5958363244795406,
+      "x": 0.113,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4370,
+    "location": {
+      "y": 0.8140703517587939,
+      "x": 0.174,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4371,
+    "location": {
+      "y": 0.8499641062455133,
+      "x": 0.118,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4372,
+    "location": {
+      "y": 0.5570710696338838,
+      "x": 0.017,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4373,
+    "location": {
+      "y": 0.4938980617372577,
+      "x": 0.284,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4374,
+    "location": {
+      "y": 0.5068198133524767,
+      "x": 0.227,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4375,
+    "location": {
+      "y": 0.44364680545585067,
+      "x": 0.227,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4376,
+    "location": {
+      "y": 0.529791816223977,
+      "x": 0.428,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4377,
+    "location": {
+      "y": 0.6116295764536971,
+      "x": 0.551,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4378,
+    "location": {
+      "y": 0.38908829863603733,
+      "x": 0.324,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4379,
+    "location": {
+      "y": 0.4881550610193826,
+      "x": 0.335,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4380,
+    "location": {
+      "y": 0.4996410624551328,
+      "x": 0.428,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4381,
+    "location": {
+      "y": 0.20674802584350324,
+      "x": 0.291,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4382,
+    "location": {
+      "y": 0.3460157932519742,
+      "x": 0.259,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4383,
+    "location": {
+      "y": 0.24838478104809764,
+      "x": 0.23,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4384,
+    "location": {
+      "y": 0.3388370423546303,
+      "x": 0.235,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4385,
+    "location": {
+      "y": 0.30007178750897345,
+      "x": 0.168,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4386,
+    "location": {
+      "y": 0.47092605886575734,
+      "x": 0.641,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4387,
+    "location": {
+      "y": 0.4637473079684135,
+      "x": 0.592,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "PURPLE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6b+"
+      },
+      "gradeLow": {
+        "font": "6a"
+      }
+    },
+    "foreignId": 4388,
+    "location": {
+      "y": 0.37185929648241206,
+      "x": 0.272,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3882,
+    "location": {
+      "y": 0.6360373295046662,
+      "x": 0.664,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3883,
+    "location": {
+      "y": 0.6590093323761665,
+      "x": 0.622,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3884,
+    "location": {
+      "y": 0.6676238334529792,
+      "x": 0.57,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3908,
+    "location": {
+      "y": 0.4235463029432879,
+      "x": 0.593,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3909,
+    "location": {
+      "y": 0.49246231155778897,
+      "x": 0.583,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3910,
+    "location": {
+      "y": 0.5728643216080402,
+      "x": 0.597,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3924,
+    "location": {
+      "y": 0.5269203158650395,
+      "x": 0.338,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3926,
+    "location": {
+      "y": 0.5326633165829145,
+      "x": 0.388,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3927,
+    "location": {
+      "y": 0.6145010768126346,
+      "x": 0.41,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3928,
+    "location": {
+      "y": 0.5125628140703518,
+      "x": 0.445,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3929,
+    "location": {
+      "y": 0.4781048097631012,
+      "x": 0.318,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3930,
+    "location": {
+      "y": 0.3747307968413496,
+      "x": 0.324,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3932,
+    "location": {
+      "y": 0.2727925340990668,
+      "x": 0.391,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3933,
+    "location": {
+      "y": 0.2684852835606604,
+      "x": 0.258,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3936,
+    "location": {
+      "y": 0.1722900215362527,
+      "x": 0.17,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3937,
+    "location": {
+      "y": 0.1981335247666906,
+      "x": 0.249,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3938,
+    "location": {
+      "y": 0.5843503230437904,
+      "x": 0.127,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3939,
+    "location": {
+      "y": 0.6776740847092606,
+      "x": 0.125,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3940,
+    "location": {
+      "y": 0.9160086145010768,
+      "x": 0.101,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3941,
+    "location": {
+      "y": 0.5068198133524767,
+      "x": 0.283,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3942,
+    "location": {
+      "y": 0.3905240488155061,
+      "x": 0.418,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3943,
+    "location": {
+      "y": 0.4580043072505384,
+      "x": 0.631,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3944,
+    "location": {
+      "y": 0.8241206030150754,
+      "x": 0.16,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3945,
+    "location": {
+      "y": 0.8083273510409189,
+      "x": 0.174,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3946,
+    "location": {
+      "y": 0.5441493180186647,
+      "x": 0.134,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3947,
+    "location": {
+      "y": 0.28427853553481697,
+      "x": 0.168,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3948,
+    "location": {
+      "y": 0.208183776022972,
+      "x": 0.342,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3949,
+    "location": {
+      "y": 0.334529791816224,
+      "x": 0.262,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3952,
+    "location": {
+      "y": 0.5384063173007897,
+      "x": 0.685,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3953,
+    "location": {
+      "y": 0.3445800430725054,
+      "x": 0.438,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3954,
+    "location": {
+      "y": 0.21249102656137833,
+      "x": 0.395,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3955,
+    "location": {
+      "y": 0.1981335247666906,
+      "x": 0.362,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3973,
+    "location": {
+      "y": 0.43503230437903806,
+      "x": 0.183,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3984,
+    "location": {
+      "y": 0.4824120603015075,
+      "x": 0.374,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3985,
+    "location": {
+      "y": 0.4867193108399139,
+      "x": 0.228,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3986,
+    "location": {
+      "y": 0.3488872936109117,
+      "x": 0.178,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3987,
+    "location": {
+      "y": 0.6331658291457286,
+      "x": 0.549,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3988,
+    "location": {
+      "y": 0.4321608040201005,
+      "x": 0.289,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3990,
+    "location": {
+      "y": 0.9203158650394831,
+      "x": 0.014,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3991,
+    "location": {
+      "y": 0.8715003589375449,
+      "x": 0.014,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3992,
+    "location": {
+      "y": 0.5886575735821967,
+      "x": 0.012,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3993,
+    "location": {
+      "y": 0.5025125628140703,
+      "x": 0.423,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3994,
+    "location": {
+      "y": 0.271356783919598,
+      "x": 0.435,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3995,
+    "location": {
+      "y": 0.6015793251974156,
+      "x": 0.594,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3996,
+    "location": {
+      "y": 0.36324479540559945,
+      "x": 0.246,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3997,
+    "location": {
+      "y": 0.3330940416367552,
+      "x": 0.239,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 3998,
+    "location": {
+      "y": 0.7695620961952621,
+      "x": 0.121,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 4067,
+    "location": {
+      "y": 0.5441493180186647,
+      "x": 0.035,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 4068,
+    "location": {
+      "y": 0.5498923187365399,
+      "x": 0.078,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 4069,
+    "location": {
+      "y": 0.9318018664752333,
+      "x": 0.16,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 4070,
+    "location": {
+      "y": 0.19669777458722182,
+      "x": 0.29,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 4071,
+    "location": {
+      "y": 0.22684852835606603,
+      "x": 0.27,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 4072,
+    "location": {
+      "y": 0.271356783919598,
+      "x": 0.224,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 4073,
+    "location": {
+      "y": 0.3488872936109117,
+      "x": 0.296,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 4074,
+    "location": {
+      "y": 0.3374012921751615,
+      "x": 0.407,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLACK"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "6c+"
+      },
+      "gradeLow": {
+        "font": "6b"
+      }
+    },
+    "foreignId": 4075,
+    "location": {
+      "y": 0.38047379755922467,
+      "x": 0.282,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4006,
+    "location": {
+      "y": 0.6590093323761665,
+      "x": 0.616,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4007,
+    "location": {
+      "y": 0.5642498205312275,
+      "x": 0.572,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4008,
+    "location": {
+      "y": 0.4206748025843503,
+      "x": 0.554,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4009,
+    "location": {
+      "y": 0.618808327351041,
+      "x": 0.414,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4010,
+    "location": {
+      "y": 0.5671213208901651,
+      "x": 0.375,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4011,
+    "location": {
+      "y": 0.542713567839196,
+      "x": 0.319,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4012,
+    "location": {
+      "y": 0.5154343144292893,
+      "x": 0.282,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4013,
+    "location": {
+      "y": 0.5025125628140703,
+      "x": 0.23,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4014,
+    "location": {
+      "y": 0.2972002871500359,
+      "x": 0.17,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4076,
+    "location": {
+      "y": 0.4120603015075377,
+      "x": 0.182,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4077,
+    "location": {
+      "y": 0.2455132806891601,
+      "x": 0.169,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4078,
+    "location": {
+      "y": 0.18808327351040918,
+      "x": 0.167,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4079,
+    "location": {
+      "y": 0.208183776022972,
+      "x": 0.296,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4080,
+    "location": {
+      "y": 0.2684852835606604,
+      "x": 0.263,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4082,
+    "location": {
+      "y": 0.2770997846374731,
+      "x": 0.393,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4083,
+    "location": {
+      "y": 0.45656855707106964,
+      "x": 0.309,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4084,
+    "location": {
+      "y": 0.9303661162957645,
+      "x": 0.036,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4085,
+    "location": {
+      "y": 0.9332376166547021,
+      "x": 0.1,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4086,
+    "location": {
+      "y": 0.9303661162957645,
+      "x": 0.145,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4087,
+    "location": {
+      "y": 0.4838478104809763,
+      "x": 0.352,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4098,
+    "location": {
+      "y": 0.5829145728643216,
+      "x": 0.126,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4102,
+    "location": {
+      "y": 0.5312275664034458,
+      "x": 0.427,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4103,
+    "location": {
+      "y": 0.5585068198133525,
+      "x": 0.607,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4104,
+    "location": {
+      "y": 0.4881550610193826,
+      "x": 0.61,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4110,
+    "location": {
+      "y": 0.4637473079684135,
+      "x": 0.636,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4111,
+    "location": {
+      "y": 0.37760229720028715,
+      "x": 0.441,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4129,
+    "location": {
+      "y": 0.6647523330940417,
+      "x": 0.558,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4193,
+    "location": {
+      "y": 0.8671931083991385,
+      "x": 0.046,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4194,
+    "location": {
+      "y": 0.5441493180186647,
+      "x": 0.047,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4195,
+    "location": {
+      "y": 0.44221105527638194,
+      "x": 0.2,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4200,
+    "location": {
+      "y": 0.6819813352476669,
+      "x": 0.101,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4201,
+    "location": {
+      "y": 0.7609475951184493,
+      "x": 0.1,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "BLUE/WHITE/RED"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "7b"
+      },
+      "gradeLow": {
+        "font": "6c+"
+      }
+    },
+    "foreignId": 4204,
+    "location": {
+      "y": 0.3388370423546303,
+      "x": 0.265,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4137,
+    "location": {
+      "y": 0.9174443646805456,
+      "x": 0.103,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4138,
+    "location": {
+      "y": 0.7595118449389806,
+      "x": 0.128,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4139,
+    "location": {
+      "y": 0.5441493180186647,
+      "x": 0.024,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4140,
+    "location": {
+      "y": 0.548456568557071,
+      "x": 0.075,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4141,
+    "location": {
+      "y": 0.36755204594400576,
+      "x": 0.242,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4142,
+    "location": {
+      "y": 0.4020100502512563,
+      "x": 0.182,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4143,
+    "location": {
+      "y": 0.2814070351758794,
+      "x": 0.232,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4144,
+    "location": {
+      "y": 0.9160086145010768,
+      "x": 0.164,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4145,
+    "location": {
+      "y": 0.8198133524766691,
+      "x": 0.053,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4146,
+    "location": {
+      "y": 0.6791098348887293,
+      "x": 0.102,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4147,
+    "location": {
+      "y": 0.17946877243359655,
+      "x": 0.167,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4148,
+    "location": {
+      "y": 0.45082555635319455,
+      "x": 0.228,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4149,
+    "location": {
+      "y": 0.9289303661162958,
+      "x": 0.066,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4150,
+    "location": {
+      "y": 0.542713567839196,
+      "x": 0.146,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4151,
+    "location": {
+      "y": 0.5628140703517588,
+      "x": 0.376,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4152,
+    "location": {
+      "y": 0.5355348169418521,
+      "x": 0.324,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4153,
+    "location": {
+      "y": 0.5513280689160086,
+      "x": 0.444,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4154,
+    "location": {
+      "y": 0.618808327351041,
+      "x": 0.409,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4155,
+    "location": {
+      "y": 0.669059583632448,
+      "x": 0.575,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4156,
+    "location": {
+      "y": 0.6460875807609476,
+      "x": 0.654,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4157,
+    "location": {
+      "y": 0.4809763101220388,
+      "x": 0.59,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4171,
+    "location": {
+      "y": 0.5010768126346016,
+      "x": 0.353,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4173,
+    "location": {
+      "y": 0.5010768126346016,
+      "x": 0.313,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4174,
+    "location": {
+      "y": 0.44508255563531945,
+      "x": 0.195,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4175,
+    "location": {
+      "y": 0.2770997846374731,
+      "x": 0.394,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4176,
+    "location": {
+      "y": 0.2613065326633166,
+      "x": 0.257,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4177,
+    "location": {
+      "y": 0.22254127781765973,
+      "x": 0.262,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4180,
+    "location": {
+      "y": 0.39195979899497485,
+      "x": 0.449,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4181,
+    "location": {
+      "y": 0.2742282842785355,
+      "x": 0.447,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4182,
+    "location": {
+      "y": 0.3431442928930366,
+      "x": 0.299,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4183,
+    "location": {
+      "y": 0.45226130653266333,
+      "x": 0.597,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4184,
+    "location": {
+      "y": 0.2038765254845657,
+      "x": 0.392,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4185,
+    "location": {
+      "y": 0.4867193108399139,
+      "x": 0.654,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4186,
+    "location": {
+      "y": 0.548456568557071,
+      "x": 0.586,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4187,
+    "location": {
+      "y": 0.38765254845656855,
+      "x": 0.305,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "gym": {
+      "id": 1
+    },
+    "color": {
+      "name": "ORANGE"
+    },
+    "initialGrade": {
+      "certainty": "RANGE",
+      "gradeHigh": {
+        "font": "8a"
+      },
+      "gradeLow": {
+        "font": "7b"
+      }
+    },
+    "foreignId": 4248,
+    "location": {
+      "y": 0.2555635319454415,
+      "x": 0.163,
+      "floorPlan": {
+        "id": 1
+      }
+    }
+  }
+]
