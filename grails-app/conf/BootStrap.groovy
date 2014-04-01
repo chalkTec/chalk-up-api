@@ -46,13 +46,14 @@ class BootStrap {
         }
     }
 
-    private void createSecurityData() {
-        Role routeSetterRole = new Role(authority: "ROLE_ROUTE_SETTER").save()
-
+    private void createSecurityData(Role routeSetterRole) {
         createUser 'test@abc.de', [routeSetterRole]
     }
 
     def init = { servletContext ->
+
+        Role routeSetterRole = Role.findByAuthority('ROLE_ROUTE_SETTER') ?: new Role(authority: 'ROLE_ROUTE_SETTER').save(failOnError: true)
+
         environments {
             production {
             }
@@ -60,7 +61,7 @@ class BootStrap {
                 createGyms()
                 createRoutes()
 
-                createSecurityData()
+                createSecurityData(routeSetterRole)
             }
             test {
             }
