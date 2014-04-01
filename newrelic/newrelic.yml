@@ -266,4 +266,6 @@ production:
 
 staging:
   <<: *default_settings
-  app_name: My Application (Staging)
+  app_name: chalkUp! API - Staging
+  license_key: '9aa4f50def77cddebf6c268395c7b2f5085bc940'
+
