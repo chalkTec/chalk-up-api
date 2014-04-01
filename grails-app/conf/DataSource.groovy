@@ -40,10 +40,11 @@ environments {
             password = uri.userInfo.split(":")[1]
 
             properties {
-                initialSize = 8
-                maxActive = 8
-                maxIdle = 8
-                maxWait = 10000 // no connection can be retrieved from the pool within this time => exception
+                initialSize = 10
+                minIdle = 10
+                maxIdle = 17
+                maxActive = 17
+                maxWait = 10000 // no connection can be retrieved from the pool within this time? => exception
                 maxAge = 10 * 60000
                 timeBetweenEvictionRunsMillis = 5000
                 minEvictableIdleTimeMillis = 60000
