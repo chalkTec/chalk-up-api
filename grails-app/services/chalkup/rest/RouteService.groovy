@@ -1,12 +1,16 @@
 package chalkup.rest
 
+import chalkup.exceptions.NotAuthenticatedException
 import chalkup.exceptions.NotFoundException
 import chalkup.gym.Gym
 import chalkup.gym.Route
 import grails.transaction.Transactional
+import org.springframework.security.access.prepost.PreAuthorize
 
 @Transactional
 class RouteService {
+
+    def springSecurityService
 
     def criteria(params) {
         def dateParam = params['date']
@@ -45,6 +49,12 @@ class RouteService {
     }
 
     def create(def map, def params) {
+        def currentUser = springSecurityService.currentUser
+
+        if(!currentUser)
+            throw new NotAuthenticatedException()
+
+        // TODO: check whether user has the right to modify gym
 
         return null;
     }

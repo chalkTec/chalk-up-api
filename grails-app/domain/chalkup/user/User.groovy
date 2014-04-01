@@ -6,6 +6,10 @@ class User {
 
     String email
     String password
+    boolean enabled = true
+    boolean accountExpired
+    boolean accountLocked
+    boolean passwordExpired
 
     Date dateCreated
 
@@ -35,6 +39,6 @@ class User {
     }
 
     protected void encodePassword() {
-//        password = springSecurityService.encodePassword(password)
+        password = springSecurityService.encodePassword(password)
     }
 }

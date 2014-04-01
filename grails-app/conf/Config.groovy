@@ -132,6 +132,23 @@ log4j = {
     fatal 'RestfulApiController_messageLog'
 }
 
+// Added by the Spring Security Core plugin:
+grails.plugin.springsecurity.userLookup.userDomainClassName = 'chalkup.user.User'
+grails.plugin.springsecurity.userLookup.usernamePropertyName = 'email'
+grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'chalkup.user.UserRole'
+grails.plugin.springsecurity.authority.className = 'chalkup.user.Role'
+
+grails.plugin.springsecurity.apf.allowSessionCreation = false
+grails.plugin.springsecurity.scr.allowSessionCreation = false
+
+// we do not rely on spring security for restricting access to certain URLs, but the restful-api plugin
+// handles chalkup.exceptions.NotAuthentictedException
+grails.plugin.springsecurity.securityConfigType = "InterceptUrlMap"
+
+grails.plugin.springsecurity.rejectIfNoRule = false
+grails.plugin.springsecurity.fii.rejectPublicInvocations = false
+
+grails.plugin.springsecurity.useBasicAuth = true
 
 
 
