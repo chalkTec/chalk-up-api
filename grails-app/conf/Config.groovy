@@ -141,14 +141,19 @@ grails.plugin.springsecurity.authority.className = 'chalkup.user.Role'
 grails.plugin.springsecurity.apf.allowSessionCreation = false
 grails.plugin.springsecurity.scr.allowSessionCreation = false
 
-// we do not rely on spring security for restricting access to certain URLs, but the restful-api plugin
-// handles chalkup.exceptions.NotAuthentictedException
 grails.plugin.springsecurity.securityConfigType = "InterceptUrlMap"
+
+grails.plugin.springsecurity.interceptUrlMap = [
+        '/**/images/**':        ['permitAll'],
+        '/rest/gyms/*/routes':  ['isFullyAuthenticated() or request.getMethod().equals("GET")'],
+        '/rest/gyms/**':        ['permitAll']
+]
 
 grails.plugin.springsecurity.rejectIfNoRule = false
 grails.plugin.springsecurity.fii.rejectPublicInvocations = false
 
 grails.plugin.springsecurity.useBasicAuth = true
+grails.plugin.springsecurity.basic.realmName = "chalkUp!"
 
 
 
