@@ -336,6 +336,7 @@ restfulApiConfig = {
                 marshallerGroup 'floorPlan'
                 marshallerGroup 'date'
             }
+            jsonExtractor {}
         }
     }
 
@@ -360,7 +361,6 @@ restfulApiConfig = {
                 marshallerGroup 'date'
                 marshallerGroup 'floorPlan'
             }
-            jsonExtractor {}
         }
     }
 
