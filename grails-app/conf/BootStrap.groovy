@@ -46,7 +46,7 @@ class BootStrap {
         }
     }
 
-    private void createSecurityData(Role routeSetterRole) {
+    private void createUsers(Role routeSetterRole) {
         createUser 'test@abc.de', [routeSetterRole]
     }
 
@@ -61,9 +61,13 @@ class BootStrap {
                 createGyms()
                 createRoutes()
 
-                createSecurityData(routeSetterRole)
+                createUsers(routeSetterRole)
             }
             test {
+                createGyms()
+                createRoutes()
+
+                createUsers(routeSetterRole)
             }
         }
     }
