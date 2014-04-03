@@ -48,4 +48,8 @@ class RouteService {
         return null;
     }
 
+    def delete(def id, def map, def params) {
+        return null;
+    }
+
 }
