@@ -144,12 +144,12 @@ grails.plugin.springsecurity.scr.allowSessionCreation = false
 grails.plugin.springsecurity.securityConfigType = "InterceptUrlMap"
 
 grails.plugin.springsecurity.interceptUrlMap = [
-        '/**/images/**':        ['permitAll'],
-        '/rest/gyms/*/routes':  ['isFullyAuthenticated() or request.getMethod().equals("GET")'],
-        '/rest/gyms/**':        ['permitAll']
+        '/images/**':               ['permitAll'],
+        '/rest/gyms/*/routes/**':   ['isFullyAuthenticated() or request.getMethod().equals("GET")'],
+        '/rest/gyms/**':            ['permitAll']
 ]
 
-grails.plugin.springsecurity.rejectIfNoRule = false
+grails.plugin.springsecurity.rejectIfNoRule = true
 grails.plugin.springsecurity.fii.rejectPublicInvocations = false
 
 grails.plugin.springsecurity.useBasicAuth = true
