@@ -10,6 +10,11 @@ class Gym {
         name blank: false
     }
 
+    static mapping = {
+        floorPlans lazy: false
+    }
+
+
     Date dateCreated
     Date lastUpdated
 

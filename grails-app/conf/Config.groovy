@@ -285,6 +285,7 @@ restfulApiConfig = {
                     includesFields {
                         field 'color'
                         field 'dateCreated' name 'created'
+                        field 'lastUpdated' name 'updated'
                         field 'location' deep true
                         field 'gym'
                     }
@@ -360,7 +361,11 @@ restfulApiConfig = {
                 marshallerGroup 'floorPlan'
                 marshallerGroup 'date'
             }
-            jsonExtractor {}
+            jsonExtractor {
+                property 'dateSet' date true
+                property 'end' date true
+                dateFormats = ["yyyy-MM-dd'T'HH:mm:ssZ"]
+            }
         }
     }
 

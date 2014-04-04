@@ -1,8 +1,12 @@
 package chalkup.rest
 
+import chalkup.exceptions.InvalidModificationException
 import chalkup.exceptions.NotFoundException
 import chalkup.gym.Gym
 import chalkup.gym.Route
+import chalkup.gym.RouteColor
+import chalkup.gym.SportGrade
+import chalkup.gym.SportRoute
 import grails.transaction.Transactional
 import org.springframework.dao.OptimisticLockingFailureException
 
@@ -54,19 +58,65 @@ class RouteService {
         return null;
     }
 
-    def delete(def id, def map, def params) {
+
+    private Route findRoute(id) {
         long lid = Long.valueOf(id)
         Route route = Route.findById(lid)
-        if(route == null)
+        if (route == null)
             throw new NotFoundException(objectName: 'route', objectId: lid)
+        route
+    }
 
-        if(map.version && map.version != route.version) {
+
+    void bindSportRoute(SportRoute route, def map) {
+        route.properties = map  // name, number, description, foreignId, 4x date
+
+        if(map['type'] && map['type'] != SportRoute.DISCRIMINATOR)
+            throw new InvalidModificationException(reason: "cannot change the type of a route")
+
+        if(map['color'])
+            route.color = RouteColor.valueOf(map['color']['name'])
+
+        if(map['initialGrade'])
+            route.initialGrade = SportGrade.fromUiaaScale(map['initialGrade']['uiaa'])
+    }
+
+    Route update(def id, def map, def params) {
+        Route route = findRoute(id)
+
+        // TODO: why does this not work automatically?
+        if(map['version'] != null && map['version'] != route.version) {
             throw new OptimisticLockingFailureException("route has changed in the mean time")
         }
 
-        log.info("$springSecurityService.currentUser.email deleted route $id")
+        // check for changing gym
+        if(map['gym'] && map['gym'].id != route.gym.id)
+            throw new InvalidModificationException(reason: "cannot move routes between gyms")
+
+        // bind parameters
+        if(route instanceof SportRoute)
+            bindSportRoute(route, map)
+        else
+            throw new UnsupportedOperationException('cannot bind boulders yet')
+
+        route.save(flush: true)
+
+        log.info("$springSecurityService.currentUser.email updated route $id")
+
+        return route
+    }
+
+
+    void delete(def id, def map, def params) {
+        Route route = findRoute(id)
+
+        if(map['version'] != null && map['version'] != route.version) {
+            throw new OptimisticLockingFailureException("route has changed in the mean time")
+        }
 
         route.delete()
+
+        log.info("$springSecurityService.currentUser.email deleted route $id")
     }
 
 }

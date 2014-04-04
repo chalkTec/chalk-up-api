@@ -38,6 +38,7 @@ class SampleData {
         r.initialGrade = SportGrade.fromUiaaScale('7+')
         r.name = "tolle Route"
         r.number = 42
+        r.dateSet = new Date(2012, 7, 30)
         return r
     }
 
@@ -47,6 +48,7 @@ class SampleData {
         r.initialGrade = SportGrade.fromUiaaScale('6-')
         r.end = new Date(114, 1, 1)
         r.name = "super tolle Route"
+        r.dateSet = new Date(2014, 8, 1)
         r.number = 33
         return r
     }
@@ -57,6 +59,7 @@ class SampleData {
         b.location(fp, 534 / 2000, 298 / 1393)
         b.gradeRange(BoulderGrade.fromFontScale('1A'), BoulderGrade.fromFontScale('8A'))
         b.end = new Date(114, 1, 1)
+        b.dateSet = new Date(2014, 5, 15)
         return b
     }
 

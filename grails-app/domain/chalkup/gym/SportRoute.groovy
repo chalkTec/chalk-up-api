@@ -2,8 +2,10 @@ package chalkup.gym
 
 class SportRoute extends Route {
 
+    public final static String DISCRIMINATOR = "sport-route"
+
     static mapping = {
-        discriminator "sport-route"
+        discriminator DISCRIMINATOR
     }
 
     static embedded = ['initialGrade']

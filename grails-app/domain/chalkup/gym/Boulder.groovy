@@ -2,8 +2,11 @@ package chalkup.gym
 
 class Boulder extends Route {
 
+    public final static String DISCRIMINATOR = "boulder"
+
+
     static mapping = {
-        discriminator "boulder"
+        discriminator DISCRIMINATOR
     }
 
     static embedded = ['initialGradeRangeLow', 'initialGradeRangeHigh']
