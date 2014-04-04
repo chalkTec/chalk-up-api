@@ -6,7 +6,7 @@ import org.springframework.http.HttpStatus
 public class NotFoundException extends RuntimeException {
 
     private String objectName
-    private long objectId
+    private def objectId
 
     // required by restful-api
     int getHttpStatusCode() {

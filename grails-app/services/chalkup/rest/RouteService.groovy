@@ -4,11 +4,12 @@ import chalkup.exceptions.NotFoundException
 import chalkup.gym.Gym
 import chalkup.gym.Route
 import grails.transaction.Transactional
+import org.springframework.dao.OptimisticLockingFailureException
 
 @Transactional
 class RouteService {
 
-    def criteria(params) {
+    def criteria(def params) {
         def dateParam = params['date']
         // TODO: properly parse data parameter in case it is given
         Date date = dateParam ? new Date() : new Date()
@@ -18,18 +19,21 @@ class RouteService {
         }
 
         def parent = params['parentPluralizedResourceName']
-        if(parent) {
-            if(parent != 'gyms')
-                throw new NotFoundException(objectName: parent, objectId: params['parentId'])
+        if(parent == null) {
+            // allow access without parent
+        }
+        else if(parent == 'gyms') {
+            long gymId = Long.valueOf(params['parentId'])
 
-            def gymIdParam = params['parentId']
-
-            if(!Gym.exists(gymIdParam))
-                throw new NotFoundException(objectName: 'gym', objectId: gymIdParam)
+            if(!Gym.exists(gymId))
+                throw new NotFoundException(objectName: 'gym', objectId: gymId)
 
             criteria = criteria.where {
-                gym.id == gymIdParam
+                gym.id == gymId
             }
+        }
+        else {
+            throw new NotFoundException(objectName: parent, objectId: params['parentId'])
         }
         return criteria
     }
@@ -49,7 +53,16 @@ class RouteService {
     }
 
     def delete(def id, def map, def params) {
-        return null;
+        long lid = Long.valueOf(id)
+        Route route = Route.findById(lid)
+        if(route == null)
+            throw new NotFoundException(objectName: 'route', objectId: lid)
+
+        if(map.version && map.version != route.version) {
+            throw new OptimisticLockingFailureException("route has changed in the mean time")
+        }
+
+        route.delete()
     }
 
 }
