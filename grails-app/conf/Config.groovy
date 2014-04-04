@@ -380,9 +380,11 @@ restfulApiConfig = {
                         def routes = [:]
                         routes["current"] = "/rest/${map['resourceName']}/${map['resourceId']}/routes"
                         map['json'].property('routes', routes)
+                        map['json'].property('colors', RouteColor.values())
                     }
                 }
                 marshallerGroup 'date'
+                marshallerGroup 'routeColor'
                 marshallerGroup 'floorPlan'
             }
         }
