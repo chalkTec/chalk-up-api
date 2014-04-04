@@ -9,6 +9,8 @@ import org.springframework.dao.OptimisticLockingFailureException
 @Transactional
 class RouteService {
 
+    def springSecurityService
+
     def criteria(def params) {
         def dateParam = params['date']
         // TODO: properly parse data parameter in case it is given
@@ -61,6 +63,8 @@ class RouteService {
         if(map.version && map.version != route.version) {
             throw new OptimisticLockingFailureException("route has changed in the mean time")
         }
+
+        log.info("$springSecurityService.currentUser.email deleted route $id")
 
         route.delete()
     }
