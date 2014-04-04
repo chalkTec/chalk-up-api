@@ -69,8 +69,7 @@ grails {
     }
 }
 
-iso8601FullDateFormat = "yyyy-MM-dd'T'HH:mm:ssXXX"
-grails.databinding.dateFormats = ['yyyy-MM-dd', 'yyyy-MM-dd HH:mm:ss.S', iso8601FullDateFormat]
+grails.databinding.dateFormats = ['yyyy-MM-dd', 'yyyy-MM-dd HH:mm:ss.S', "yyyy-MM-dd'T'HH:mm:ssXXX"]
 
 grails.gorm.failOnError = true
 
@@ -202,7 +201,7 @@ restfulApiConfig = {
         group 'date' marshallers {
             marshaller {
                 instance = new ClosureObjectMarshaller<JSON>(Date, {
-                    return it?.format(iso8601FullDateFormat)
+                    return it?.format("yyyy-MM-dd'T'HH:mm:ssXXX")
                 })
                 priority = 100
             }
@@ -369,7 +368,7 @@ restfulApiConfig = {
             jsonExtractor {
                 property 'dateSet' date true
                 property 'end' date true
-                dateFormats = [iso8601FullDateFormat]
+                dateFormats = ["yyyy-MM-dd'T'HH:mm:ssXXX"]
             }
         }
     }
