@@ -145,8 +145,7 @@ grails.plugin.springsecurity.securityConfigType = "InterceptUrlMap"
 
 grails.plugin.springsecurity.interceptUrlMap = [
         '/images/**':               ['permitAll'],
-        '/rest/gyms/*/routes/**':   ['isFullyAuthenticated() or request.getMethod().equals("GET")'],
-        '/rest/gyms/**':            ['permitAll']
+        '/rest/**':            ['isFullyAuthenticated() or request.getMethod().equals("GET")']
 ]
 
 grails.plugin.springsecurity.rejectIfNoRule = true
