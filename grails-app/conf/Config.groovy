@@ -120,6 +120,10 @@ log4j = {
     // Set level for all application artifacts
     info 'grails.app'
 
+	// enable logging of restful-api plugin
+    // info  'RestfulApiController_messageLog'
+    // trace 'grails.app.controllers'
+
     error 'org.codehaus.groovy.grails.web.servlet',        // controllers
             'org.codehaus.groovy.grails.web.pages',          // GSP
             'org.codehaus.groovy.grails.web.sitemesh',       // layouts
