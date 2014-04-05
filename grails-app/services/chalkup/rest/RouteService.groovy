@@ -4,9 +4,9 @@ import chalkup.exceptions.InvalidModificationException
 import chalkup.exceptions.NotFoundException
 import chalkup.gym.*
 import grails.transaction.Transactional
-import grails.validation.ValidationErrors
 import grails.validation.ValidationException
 import org.springframework.dao.OptimisticLockingFailureException
+import org.springframework.http.HttpStatus
 
 @Transactional
 class RouteService {
@@ -50,8 +50,48 @@ class RouteService {
         return criteria.count()
     }
 
+    String getRouteType(def map) {
+        String type = map['type']
+        if(!type) {
+            throw new RuntimeException() {
+                // required by restful-api
+                int getHttpStatusCode() {
+                    return HttpStatus.BAD_REQUEST.value();
+                }
+
+                def returnMap = {
+                    return [message: "route type not set"]
+                }
+            }
+        }
+        if(type != "sport-route") {
+            throw new RuntimeException() {
+                // required by restful-api
+                int getHttpStatusCode() {
+                    return HttpStatus.BAD_REQUEST.value();
+                }
+
+                def returnMap = {
+                    return [message: "route type $type not known"]
+                }
+            }
+        }
+        return type;
+    }
+
+
     def create(def map, def params) {
-        return null;
+        String type = getRouteType(map)
+        Route route;
+        switch(type) {
+            case "sport-route":
+                route = new SportRoute();
+                break;
+        }
+        bindSportRoute(route, map)
+
+        route.save()
+        return route
     }
 
 
@@ -65,13 +105,14 @@ class RouteService {
 
 
     void bindSportRoute(SportRoute route, def map) {
+        if (map['color'])
+            route.color = RouteColor.valueOf(map['color']['name'])
+        map.remove('color')
+
         route.properties = map  // name, number, description, foreignId, 4x date
 
         if (map['type'] && map['type'] != SportRoute.DISCRIMINATOR)
             throw new InvalidModificationException(reason: "cannot change the type of a route")
-
-        if (map['color'])
-            route.color = RouteColor.valueOf(map['color']['name'])
 
         if (map['initialGrade']) {
             String uiaa = map['initialGrade']['uiaa']

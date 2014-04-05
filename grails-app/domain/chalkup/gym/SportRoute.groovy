@@ -13,8 +13,4 @@ class SportRoute extends Route {
 
     SportGrade initialGrade
 
-    public SportRoute() {
-        this.initialGrade = SportGrade.zero()
-    }
-
 }
