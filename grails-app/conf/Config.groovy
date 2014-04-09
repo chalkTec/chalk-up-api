@@ -241,7 +241,7 @@ restfulApiConfig = {
         }
         group 'grades' marshallers {
             marshaller {
-                instance = new ClosureObjectMarshaller<JSON>(Route.GradeCertainty, {
+                instance = new ClosureObjectMarshaller<JSON>(GradeCertainty, {
                     it.toString()
                 })
             }
@@ -319,20 +319,6 @@ restfulApiConfig = {
                         if (route instanceof Boulder) {
                             json.property('type', 'boulder')
 
-                            def initialGrade = [:]
-                            initialGrade['certainty'] = route.initialGradeCertainty
-                            initialGrade['readable'] = route.initialGrade
-                            switch (route.initialGradeCertainty) {
-                                case Route.GradeCertainty.ASSIGNED:
-                                    initialGrade['grade'] = route.assignedGrade
-                                    break;
-                                case Route.GradeCertainty.RANGE:
-                                    initialGrade['gradeLow'] = route.gradeRangeLow
-                                    initialGrade['gradeHigh'] = route.gradeRangeHigh
-                                    break;
-                            }
-                            json.property('initialGrade', initialGrade)
-
                             // TODO: create photo as resource
                             //if (route.hasPhoto()) {
                             //    def photo = [:]
@@ -342,10 +328,24 @@ restfulApiConfig = {
                             //                                             'absolute': true])
                             //    map['photo'] = photo
                             //}
+
+                            if (route.getInitialGradeCertainty() == GradeCertainty.ASSIGNED ||
+                                    route.getInitialGradeCertainty() == GradeCertainty.RANGE) {
+                                def initialGrade = [:]
+                                initialGrade['value'] = route.getGradeValue()
+                                initialGrade['font'] = route.getReadableInitialGrade()
+                                json.property('initialGrade', initialGrade)
+                            }
                         } else if (route instanceof SportRoute) {
                             json.property('type', 'sport-route')
 
-                            json.property('initialGrade', route.initialGrade)
+                            if (route.getInitialGradeCertainty() == GradeCertainty.ASSIGNED ||
+                                    route.getInitialGradeCertainty() == GradeCertainty.RANGE) {
+                                def initialGrade = [:]
+                                initialGrade['value'] = route.getGradeValue()
+                                initialGrade['uiaa'] = route.getReadableInitialGrade()
+                                json.property('initialGrade', initialGrade)
+                            }
                         }
 
                     }

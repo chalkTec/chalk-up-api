@@ -1,6 +1,6 @@
 package chalkup.gym
 
-class Boulder extends Route {
+class Boulder extends Route<BoulderGrade> {
 
     public final static String DISCRIMINATOR = "boulder"
 
@@ -9,71 +9,26 @@ class Boulder extends Route {
         discriminator DISCRIMINATOR
     }
 
-    static embedded = ['initialGradeRangeLow', 'initialGradeRangeHigh']
-
-    GradeCertainty initialGradeCertainty
-    BoulderGrade initialGradeRangeLow, initialGradeRangeHigh
-
-    public Boulder() {
-        this.initialGradeRangeLow = BoulderGrade.zero()
-        this.initialGradeRangeHigh = BoulderGrade.zero()
+    @Override
+    protected BoulderGrade gradeForValue(double value) {
+        return new BoulderGrade(value)
     }
 
-    public void assignedGrade(BoulderGrade grade) {
-        initialGradeCertainty = GradeCertainty.ASSIGNED
-        initialGradeRangeLow = grade
-        initialGradeRangeHigh = BoulderGrade.zero()
-    }
-
-    public boolean hasAssignedGrade() {
-        return initialGradeCertainty == GradeCertainty.ASSIGNED
-
-    }
-
-    public BoulderGrade getAssignedGrade() {
-        assert hasAssignedGrade()
-        return initialGradeRangeLow
-    }
-
-    public void gradeRange(BoulderGrade rangeLow, BoulderGrade rangeHigh) {
-        initialGradeCertainty = GradeCertainty.RANGE
-        initialGradeRangeLow = rangeLow
-        initialGradeRangeHigh = rangeHigh
-    }
-
-    public boolean hasGradeRange() {
-        return initialGradeCertainty == GradeCertainty.RANGE;
-    }
-
-    public BoulderGrade getGradeRangeLow() {
-        assert hasGradeRange()
-        return initialGradeRangeLow
-    }
-
-    public BoulderGrade getGradeRangeHigh() {
-        assert hasGradeRange()
-        return initialGradeRangeHigh
-    }
-
-    public void unknownGrade() {
-        initialGradeCertainty = GradeCertainty.UNKNOWN;
-        initialGradeRangeLow = BoulderGrade.lowest()
-        initialGradeRangeHigh = BoulderGrade.highest()
-    }
-
-    public String getInitialGrade() {
-        switch (initialGradeCertainty) {
-            case GradeCertainty.ASSIGNED:
-                return getAssignedGrade().toFontScale()
-            case GradeCertainty.RANGE:
-                return getGradeRangeLow().toFontScale() + " – " + getGradeRangeHigh().toFontScale()
+    @Override
+    String getReadableInitialGrade() {
+        switch(getInitialGradeCertainty()) {
             case GradeCertainty.UNKNOWN:
-                return "unbekannt"
+                return "?"
+            case GradeCertainty.ASSIGNED:
+                return new BoulderGrade(initialGradeLow).toFontScale()
+            case GradeCertainty.RANGE:
+                if(BoulderGrade.fontNeighbours(getGradeRangeLow(), getGradeRangeHigh())) {
+                    return "${getGradeRangeLow().toFontScale()}/${getGradeRangeHigh().toFontScale()}"
+                }
+                else {
+                    return "${getGradeRangeLow().toFontScale()} – ${getGradeRangeHigh().toFontScale()}"
+                }
         }
-    }
-
-    public boolean hasUnknownGrade() {
-        return initialGradeCertainty == GradeCertainty.UNKNOWN;
     }
 
 }

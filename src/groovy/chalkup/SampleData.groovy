@@ -35,20 +35,20 @@ class SampleData {
     public static SportRoute createSportRoute1(FloorPlan fp) {
         SportRoute r = new SportRoute(color: RouteColor.BLUE_WHITE_RED)
         r.location(fp, 0.5, 0.5)
-        r.initialGrade = SportGrade.fromUiaaScale('7+')
+        r.gradeRange(SportGrade.fromUiaaScale('7+'), SportGrade.fromUiaaScale('8-'))
         r.name = "tolle Route"
         r.number = 42
-        r.dateSet = new Date(2012, 7, 30)
+        r.dateSet = new Date(112, 7, 30)
         return r
     }
 
     public static SportRoute createSportRoute2(FloorPlan fp) {
         SportRoute r = new SportRoute(color: RouteColor.BLUE_WHITE_RED)
         r.location(fp, 0.6, 0.5)
-        r.initialGrade = SportGrade.fromUiaaScale('6-')
+        r.assignedGrade(SportGrade.fromUiaaScale('7+'))
         r.end = new Date(114, 1, 1)
         r.name = "super tolle Route"
-        r.dateSet = new Date(2014, 8, 1)
+        r.dateSet = new Date(114, 8, 1)
         r.number = 33
         return r
     }
@@ -59,7 +59,7 @@ class SampleData {
         b.location(fp, 534 / 2000, 298 / 1393)
         b.gradeRange(BoulderGrade.fromFontScale('1A'), BoulderGrade.fromFontScale('8A'))
         b.end = new Date(114, 1, 1)
-        b.dateSet = new Date(2014, 5, 15)
+        b.dateSet = new Date(114, 5, 15)
         return b
     }
 

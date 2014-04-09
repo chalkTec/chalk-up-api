@@ -35,6 +35,12 @@ class SportGrade implements Comparable<SportGrade> {
         return new SportGrade(i * segment + (segment / 2))
     }
 
+    public static boolean uiaaNeighbours(SportGrade g1, SportGrade g2) {
+        int uiaaGradePos1 = UIAA_GRADES.indexOf(g1.toUiaaScale())
+        int uiaaGradePos2 = UIAA_GRADES.indexOf(g2.toUiaaScale())
+        return Math.abs(uiaaGradePos2 - uiaaGradePos1) == 1;
+    }
+
     public static boolean isUiaaScaleGrade(String uiaa) {
         return UIAA_GRADES.contains(uiaa.toUpperCase())
     }

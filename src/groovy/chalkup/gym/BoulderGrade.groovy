@@ -35,6 +35,12 @@ class BoulderGrade implements Comparable<BoulderGrade> {
         return new BoulderGrade(i * segment + (segment / 2))
     }
 
+    public static boolean fontNeighbours(BoulderGrade g1, BoulderGrade g2) {
+        int fontGradePos1 = FONT_GRADES.indexOf(g1.toFontScale())
+        int fontGradePos2 = FONT_GRADES.indexOf(g2.toFontScale())
+        return Math.abs(fontGradePos2 - fontGradePos1) == 1;
+    }
+
     public static boolean isFrontScaleGrade(String font) {
         return FONT_GRADES.contains(font.toUpperCase())
     }

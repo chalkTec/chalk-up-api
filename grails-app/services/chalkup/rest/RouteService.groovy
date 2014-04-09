@@ -52,7 +52,7 @@ class RouteService {
 
     String getRouteType(def map) {
         String type = map['type']
-        if(!type) {
+        if (!type) {
             throw new RuntimeException() {
                 // required by restful-api
                 int getHttpStatusCode() {
@@ -64,7 +64,7 @@ class RouteService {
                 }
             }
         }
-        if(type != "sport-route") {
+        if (type != "sport-route") {
             throw new RuntimeException() {
                 // required by restful-api
                 int getHttpStatusCode() {
@@ -83,7 +83,7 @@ class RouteService {
     def create(def map, def params) {
         String type = getRouteType(map)
         Route route;
-        switch(type) {
+        switch (type) {
             case "sport-route":
                 route = new SportRoute();
                 break;
@@ -116,12 +116,21 @@ class RouteService {
 
         if (map['initialGrade']) {
             String uiaa = map['initialGrade']['uiaa']
-            if (SportGrade.isUiaaScaleGrade(uiaa)) {
-                route.initialGrade = SportGrade.fromUiaaScale(uiaa)
+
+            // TODO: support ranges beyond slash-ranges (7+/8-)
+            def slashGrade = uiaa =~ /(.*)\/(.*)/
+            if (slashGrade) {
+                SportGrade low = SportGrade.fromUiaaScale(slashGrade[0][1])
+                SportGrade high = SportGrade.fromUiaaScale(slashGrade[0][2])
+                route.gradeRange(low, high)
+            } else if (SportGrade.isUiaaScaleGrade(uiaa)) {
+                route.assignedGrade(SportGrade.fromUiaaScale(uiaa))
             } else {
                 route.errors.reject('chalkup.invalid.grade.message',
                         [uiaa, 'UIAA'] as Object[], "$uiaa is not a valid UIAA grade");
             }
+        } else {
+            route.unknownGrade()
         }
     }
 
@@ -143,7 +152,7 @@ class RouteService {
         else
             throw new UnsupportedOperationException('cannot bind boulders yet')
 
-        if(route.hasErrors()) {
+        if (route.hasErrors()) {
             throw new ValidationException("route not valid", route.errors)
         }
 
