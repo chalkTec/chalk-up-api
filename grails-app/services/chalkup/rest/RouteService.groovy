@@ -64,7 +64,7 @@ class RouteService {
                 }
             }
         }
-        if (type != "sport-route") {
+        if (type != "sport-route" && type != "boulder") {
             throw new RuntimeException() {
                 // required by restful-api
                 int getHttpStatusCode() {
@@ -85,12 +85,19 @@ class RouteService {
         Route route;
         switch (type) {
             case "sport-route":
-                route = new SportRoute();
+                route = new SportRoute()
+                bindSportRoute(route, map)
+                break;
+            case "boulder":
+                route = new Boulder()
+                bindBoulder(route, map)
                 break;
         }
-        bindSportRoute(route, map)
 
         route.save()
+
+        log.info("$springSecurityService.currentUser.email created route $route.id")
+
         return route
     }
 
@@ -104,12 +111,17 @@ class RouteService {
     }
 
 
-    void bindSportRoute(SportRoute route, def map) {
+    // bind attributes common to sport routes and boulders
+    void bindRoute(Route route, def map) {
         if (map['color'])
             route.color = RouteColor.valueOf(map['color']['name'])
         map.remove('color')
 
         route.properties = map  // name, number, description, foreignId, 4x date
+    }
+
+    void bindSportRoute(SportRoute route, def map) {
+        bindRoute(route, map)
 
         if (map['type'] && map['type'] != SportRoute.DISCRIMINATOR)
             throw new InvalidModificationException(reason: "cannot change the type of a route")
@@ -134,6 +146,34 @@ class RouteService {
         }
     }
 
+    void bindBoulder(Boulder route, def map) {
+        bindRoute(route, map)
+
+        if (map['type'] && map['type'] != Boulder.DISCRIMINATOR)
+            throw new InvalidModificationException(reason: "cannot change the type of a route")
+
+        if (map['initialGrade']) {
+            String font = map['initialGrade']['font']
+
+            // TODO: support ranges beyond slash-ranges (7a/7a+)
+            def slashGrade = font =~ /(.*)\/(.*)/
+            if (slashGrade) {
+                BoulderGrade low = BoulderGrade.fromFontScale(slashGrade[0][1])
+                BoulderGrade high = BoulderGrade.fromFontScale(slashGrade[0][2])
+                route.gradeRange(low, high)
+            } else if (BoulderGrade.isFontScaleGrade(font)) {
+                route.assignedGrade(BoulderGrade.fromFontScale(font))
+            } else {
+                route.errors.reject('chalkup.invalid.grade.message',
+                        [font, 'Fontainebleau'] as Object[], "$font is not a valid Fontainebleau grade");
+            }
+        } else {
+            route.unknownGrade()
+        }
+    }
+
+
+
     Route update(def id, def map, def params) {
         Route route = findRoute(id)
 
@@ -149,6 +189,8 @@ class RouteService {
         // bind parameters
         if (route instanceof SportRoute)
             bindSportRoute(route, map)
+        else if (route instanceof Boulder)
+            bindBoulder(route, map)
         else
             throw new UnsupportedOperationException('cannot bind boulders yet')
 

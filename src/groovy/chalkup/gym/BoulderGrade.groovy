@@ -41,7 +41,7 @@ class BoulderGrade implements Comparable<BoulderGrade> {
         return Math.abs(fontGradePos2 - fontGradePos1) == 1;
     }
 
-    public static boolean isFrontScaleGrade(String font) {
+    public static boolean isFontScaleGrade(String font) {
         return FONT_GRADES.contains(font.toUpperCase())
     }
 
