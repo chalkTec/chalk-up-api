@@ -37,17 +37,20 @@ class BootStrap {
         gym2.addToRoutes(SampleData.createBoulder9(fp2))
     }
 
-    private void createUser(String username, List<Role> roles) {
-        def user = new User(email: username, password: 'p')
+    private User createUser(String username, List<Role> roles) {
+        User user = new User(email: username, password: 'p')
         user.save()
 
         roles.each { role ->
             UserRole.create(user, role)
         }
+
+        return user
     }
 
     private void createUsers(Role routeSetterRole) {
-        createUser 'test@abc.de', [routeSetterRole]
+        User test = createUser 'test@abc.de', [routeSetterRole]
+        test.gym = Gym.findById(2)
     }
 
     def init = { servletContext ->

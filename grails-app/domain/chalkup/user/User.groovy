@@ -1,5 +1,7 @@
 package chalkup.user
 
+import chalkup.gym.Gym
+
 class User {
 
     transient springSecurityService
@@ -13,10 +15,14 @@ class User {
 
     Date dateCreated
 
+    /// the gym that the user is allowed to administrate
+    Gym gym
+
     static transients = ['springSecurityService']
 
     static constraints = {
         email unique: true
+        gym nullable: true
     }
 
     static mapping = {
