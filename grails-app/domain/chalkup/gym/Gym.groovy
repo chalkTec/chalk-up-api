@@ -7,7 +7,7 @@ class Gym {
     static hasMany = [floorPlans: FloorPlan, routes: Route]
 
     static constraints = {
-        name blank: false
+        name blank: false, unique: true
     }
 
     static mapping = {
@@ -24,4 +24,18 @@ class Gym {
         this.routes = [] as Set
     }
 
+    boolean equals(o) {
+        if (this.is(o)) return true
+        if (!(o instanceof Gym)) return false
+
+        Gym gym = (Gym) o
+
+        if (name != gym.name) return false
+
+        return true
+    }
+
+    int hashCode() {
+        return name.hashCode()
+    }
 }

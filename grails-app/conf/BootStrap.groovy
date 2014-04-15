@@ -49,8 +49,12 @@ class BootStrap {
     }
 
     private void createUsers(Role routeSetterRole) {
-        User test = createUser 'test@abc.de', [routeSetterRole]
-        test.gym = Gym.findById(2)
+        createUser 'test@abc.de', [routeSetterRole]
+
+        User gym1 = createUser 'gym1@abc.de', [routeSetterRole]
+        gym1.gym = Gym.findById(1)
+        User gym2 = createUser 'gym2@abc.de', [routeSetterRole]
+        gym2.gym = Gym.findById(2)
     }
 
     def init = { servletContext ->

@@ -30,6 +30,10 @@ class User {
         password column: '"password"'
     }
 
+    boolean mayAdministrate(Gym gym) {
+        return gym.equals(this.gym)
+    }
+
     Set<Role> getAuthorities() {
         UserRole.findAllByUser(this).collect { it.role } as Set
     }

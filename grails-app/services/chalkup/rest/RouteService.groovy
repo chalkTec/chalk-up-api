@@ -7,6 +7,7 @@ import grails.transaction.Transactional
 import grails.validation.ValidationException
 import org.springframework.dao.OptimisticLockingFailureException
 import org.springframework.http.HttpStatus
+import org.springframework.security.access.prepost.PreAuthorize
 
 @Transactional
 class RouteService {
@@ -80,28 +81,6 @@ class RouteService {
     }
 
 
-    def create(def map, def params) {
-        String type = getRouteType(map)
-        Route route;
-        switch (type) {
-            case "sport-route":
-                route = new SportRoute()
-                bindSportRoute(route, map)
-                break;
-            case "boulder":
-                route = new Boulder()
-                bindBoulder(route, map)
-                break;
-        }
-
-        route.save()
-
-        log.info("$springSecurityService.currentUser.email created route $route.id for gym $route.gym.id")
-
-        return route
-    }
-
-
     private Route findRoute(id) {
         long lid = Long.valueOf(id)
         Route route = Route.findById(lid)
@@ -109,7 +88,6 @@ class RouteService {
             throw new NotFoundException(objectName: 'route', objectId: lid)
         route
     }
-
 
     // bind attributes common to sport routes and boulders
     void bindRoute(Route route, def map) {
@@ -173,7 +151,30 @@ class RouteService {
     }
 
 
+    @PreAuthorize("hasPermission(#map['gym']['id'], 'chalkup.gym.Gym', 'create')")
+    Route create(def map, def params) {
+        String type = getRouteType(map)
+        Route route;
+        switch (type) {
+            case "sport-route":
+                route = new SportRoute()
+                bindSportRoute(route, map)
+                break;
+            case "boulder":
+                route = new Boulder()
+                bindBoulder(route, map)
+                break;
+        }
 
+        route.save()
+
+        log.info("$springSecurityService.currentUser.email created route $route.id for gym $route.gym.id")
+
+        return route
+    }
+
+
+    @PreAuthorize("hasPermission(#map['gym']['id'], 'chalkup.gym.Gym', 'update')")
     Route update(def id, def map, def params) {
         Route route = findRoute(id)
 
@@ -206,6 +207,7 @@ class RouteService {
     }
 
 
+    @PreAuthorize("hasPermission(#map['gym']['id'], 'chalkup.gym.Gym', 'delete')")
     void delete(def id, def map, def params) {
         Route route = findRoute(id)
 
