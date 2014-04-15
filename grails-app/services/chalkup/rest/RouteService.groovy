@@ -96,7 +96,7 @@ class RouteService {
 
         route.save()
 
-        log.info("$springSecurityService.currentUser.email created route $route.id")
+        log.info("$springSecurityService.currentUser.email created route $route.id for gym $route.gym.id")
 
         return route
     }
@@ -200,7 +200,7 @@ class RouteService {
 
         route.save(flush: true)
 
-        log.info("$springSecurityService.currentUser.email updated route $id")
+        log.info("$springSecurityService.currentUser.email updated route $id for gym $route.gym.id")
 
         return route
     }
@@ -215,7 +215,7 @@ class RouteService {
 
         route.delete()
 
-        log.info("$springSecurityService.currentUser.email deleted route $id")
+        log.info("$springSecurityService.currentUser.email deleted route $id for gym $route.gym.id")
     }
 
 }
