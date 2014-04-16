@@ -172,7 +172,10 @@ cache.headers.enabled = false
 //
 cors.url.pattern = '/rest/*'
 cors.allow.origin.regex = '.*'
-cors.expose.headers = 'content-type,X-chalkup-totalCount,X-chalkup-pageOffset,X-chalkup-pageMaxSize,X-chalkup-message,X-chalkup-Media-Type'
+cors.expose.headers = 'content-type,X-chalkup-totalCount,X-chalkup-pageOffset,X-chalkup-pageMaxSize,' +
+        'X-chalkup-message,X-chalkup-Media-Type,X-Auth-Token'
+
+cors.headers = ['Access-Control-Allow-Headers': 'origin, authorization, accept, content-type, x-requested-with, X-Auth-Token']
 
 // ******************************************************************************
 //             RESTful API Custom Response Header Name Configuration

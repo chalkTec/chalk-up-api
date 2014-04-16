@@ -3,8 +3,8 @@ grails.project.class.dir = "target/classes"
 grails.project.test.class.dir = "target/test-classes"
 grails.project.test.reports.dir = "target/test-reports"
 grails.project.work.dir = "target/work"
-grails.project.target.level = 1.6
-grails.project.source.level = 1.6
+grails.project.target.level = 1.7
+grails.project.source.level = 1.7
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
 
 grails.project.fork = [
@@ -41,6 +41,7 @@ grails.project.dependency.resolution = {
         grailsCentral()
         mavenCentral()
         mavenRepo 'http://repo.spring.io/milestone' // required for Spring Security plugin's dependencies
+
         // uncomment these (or add new ones) to enable remote dependency resolution from public Maven repositories
         //mavenRepo "http://repository.codehaus.org"
         //mavenRepo "http://download.java.net/maven/2/"
@@ -53,6 +54,9 @@ grails.project.dependency.resolution = {
         // see http://stackoverflow.com/questions/16019586/unsupported-major-minor-version-51-0-unable-to-load-class
         // -org-postgresql-driver for which version of postgresql dependency to take for which Java version
         runtime 'org.postgresql:postgresql:9.3-1100-jdbc4'
+
+        // required by userapp
+        compile 'org.json:json:20140107'
     }
 
     plugins {
@@ -62,6 +66,8 @@ grails.project.dependency.resolution = {
         compile ':spring-security-core:2.0-RC2'
         // SS ACL is required for overriding the permissionEvaluator bean with a custom implementation
         compile ":spring-security-acl:2.0-RC1"
+
+        compile ":spring-security-rest:1.3.3"
 
         compile ":restful-api:0.8.0"
 

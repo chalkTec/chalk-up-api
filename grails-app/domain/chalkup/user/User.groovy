@@ -4,6 +4,8 @@ import chalkup.gym.Gym
 
 class User {
 
+    String id
+
     transient springSecurityService
 
     String email
