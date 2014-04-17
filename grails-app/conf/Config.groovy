@@ -121,7 +121,7 @@ log4j = {
     info 'grails.app'
 
 	// enable logging of restful-api plugin
-    // info  'RestfulApiController_messageLog'
+    info  'RestfulApiController_messageLog'
     // trace 'grails.app.controllers'
 
     error 'org.codehaus.groovy.grails.web.servlet',        // controllers

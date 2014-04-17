@@ -7,6 +7,7 @@ import grails.transaction.Transactional
 import grails.validation.ValidationException
 import org.springframework.dao.OptimisticLockingFailureException
 import org.springframework.http.HttpStatus
+import org.springframework.security.access.AccessDeniedException
 import org.springframework.security.access.prepost.PreAuthorize
 
 @Transactional
@@ -150,9 +151,25 @@ class RouteService {
         }
     }
 
+    boolean canUserEdit(def user, Gym gym) {
+        if(user.hasRole('admin')) {
+            return true
+        }
+        else if(user.hasRole('route_setter')) {
+            return user.getGymId() == gym.id
+        }
+        else {
+            return false
+        }
+    }
 
-    @PreAuthorize("hasRole('admin') or hasPermission(#map['gym']['id'], 'chalkup.gym.Gym', 'create')")
+
     Route create(def map, def params) {
+        Gym gym = Gym.findById(Long.valueOf(map['gym']['id']))
+        def user = springSecurityService.principal
+        if(!canUserEdit(user, gym))
+            throw new AccessDeniedException("$user is not allowed to create a route for gym $gym")
+
         String type = getRouteType(map)
         Route route;
         switch (type) {
@@ -168,14 +185,18 @@ class RouteService {
 
         route.save()
 
-        log.info("$springSecurityService.principal.email created route $route.id for gym $route.gym.id")
+        log.info("$user created route $route.id for gym $gym")
 
         return route
     }
 
 
-    @PreAuthorize("hasRole('admin') or hasPermission(#map['gym']['id'], 'chalkup.gym.Gym', 'update')")
     Route update(def id, def map, def params) {
+        Gym gym = Gym.findById(Long.valueOf(map['gym']['id']))
+        def user = springSecurityService.principal
+        if(!canUserEdit(user, gym))
+            throw new AccessDeniedException("$user is not allowed to update a route for gym $gym")
+
         Route route = findRoute(id)
 
         // TODO: why does this not work automatically?
@@ -201,14 +222,18 @@ class RouteService {
 
         route.save(flush: true)
 
-        log.info("$springSecurityService.principal.email updated route $id for gym $route.gym.id")
+        log.info("$user updated route $id for gym $gym")
 
         return route
     }
 
 
-    @PreAuthorize("hasRole('admin') or hasPermission(#map['gym']['id'], 'chalkup.gym.Gym', 'delete')")
     void delete(def id, def map, def params) {
+        Gym gym = Gym.findById(Long.valueOf(map['gym']['id']))
+        def user = springSecurityService.principal
+        if(!canUserEdit(user, gym))
+            throw new AccessDeniedException("$user is not allowed to delete a route for gym $gym")
+
         Route route = findRoute(id)
 
         if (map['version'] != null && map['version'] != route.version) {
@@ -217,7 +242,7 @@ class RouteService {
 
         route.delete()
 
-        log.info("$springSecurityService.principal.email deleted route $id for gym $route.gym.id")
+        log.info("$user deleted route $id for gym $gym")
     }
 
 }

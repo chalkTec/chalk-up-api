@@ -65,7 +65,6 @@ grails.project.dependency.resolution = {
 
         compile ':spring-security-core:2.0-RC2'
         // SS ACL is required for overriding the permissionEvaluator bean with a custom implementation
-        compile ":spring-security-acl:2.0-RC1"
 
         compile ":spring-security-rest:1.3.3"
 

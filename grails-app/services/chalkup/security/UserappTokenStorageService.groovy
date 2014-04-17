@@ -61,6 +61,12 @@ class UserappTokenStorageService implements TokenStorageService {
                     return authorities
                 }
 
+                public boolean hasRole(String role) {
+                    return getAuthorities().any {
+                        it.getAuthority().equals(role)
+                    }
+                }
+
                 @Override
                 String getPassword() {
                     return "N/A"
@@ -89,6 +95,10 @@ class UserappTokenStorageService implements TokenStorageService {
                 @Override
                 boolean isEnabled() {
                     return true
+                }
+
+                public String toString() {
+                    return getEmail()
                 }
             }
         }
