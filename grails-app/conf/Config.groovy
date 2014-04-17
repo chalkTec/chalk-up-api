@@ -17,7 +17,7 @@ import org.codehaus.groovy.grails.web.converters.marshaller.ClosureObjectMarshal
 
 grails.app.context = "/"
 
-grails.project.groupId = "chalkUpTec" // change this to alter the default package name and Maven publishing destination
+grails.project.groupId = "chalkTec" // change this to alter the default package name and Maven publishing destination
 
 // The ACCEPT header will not be used for content negotiation for user agents containing the following strings (defaults to the 4 major rendering engines)
 grails.mime.disable.accept.header.userAgents = ['Gecko', 'WebKit', 'Presto', 'Trident']
@@ -139,14 +139,13 @@ log4j = {
     fatal 'RestfulApiController_messageLog'
 }
 
-// Added by the Spring Security Core plugin:
-grails.plugin.springsecurity.userLookup.userDomainClassName = 'chalkup.user.User'
-grails.plugin.springsecurity.userLookup.usernamePropertyName = 'email'
-grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'chalkup.user.UserRole'
-grails.plugin.springsecurity.authority.className = 'chalkup.user.Role'
 
-grails.plugin.springsecurity.apf.allowSessionCreation = false
-grails.plugin.springsecurity.scr.allowSessionCreation = false
+
+
+// Added by the Spring Security Core plugin:
+
+//grails.plugin.springsecurity.apf.allowSessionCreation = false
+//grails.plugin.springsecurity.scr.allowSessionCreation = false
 
 grails.plugin.springsecurity.securityConfigType = "InterceptUrlMap"
 
@@ -158,9 +157,8 @@ grails.plugin.springsecurity.interceptUrlMap = [
 grails.plugin.springsecurity.rejectIfNoRule = true
 grails.plugin.springsecurity.fii.rejectPublicInvocations = false
 
-grails.plugin.springsecurity.useBasicAuth = true
-grails.plugin.springsecurity.basic.realmName = "chalkUp!"
 
+grails.plugin.springsecurity.rest.token.validation.headerName = 'X-Auth-Token'
 
 
 cache.headers.enabled = false
@@ -175,6 +173,7 @@ cors.allow.origin.regex = '.*'
 cors.expose.headers = 'content-type,X-chalkup-totalCount,X-chalkup-pageOffset,X-chalkup-pageMaxSize,' +
         'X-chalkup-message,X-chalkup-Media-Type,X-Auth-Token'
 
+// we need to overwrote this in order to add X-Auth-Token
 cors.headers = ['Access-Control-Allow-Headers': 'origin, authorization, accept, content-type, x-requested-with, X-Auth-Token']
 
 // ******************************************************************************

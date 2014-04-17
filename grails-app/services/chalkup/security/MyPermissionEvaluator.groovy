@@ -1,7 +1,6 @@
 package chalkup.security
 
 import chalkup.gym.Gym
-import chalkup.user.User
 import org.springframework.security.access.PermissionEvaluator
 import org.springframework.security.core.Authentication
 
@@ -10,8 +9,7 @@ public class MyPermissionEvaluator implements PermissionEvaluator {
     @Override
     public boolean hasPermission(Authentication authentication, Object targetDomainObject, Object permission) {
 		if(targetDomainObject instanceof Gym) {
-            User user = User.findById(authentication.principal.id)
-            return user.mayAdministrate(targetDomainObject)
+            return authentication.principal.getGymId() == targetDomainObject.id
 		}
 	    else {
 			throw new UnsupportedOperationException()

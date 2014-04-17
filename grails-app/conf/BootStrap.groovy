@@ -1,9 +1,6 @@
 import chalkup.SampleData
 import chalkup.gym.FloorPlan
 import chalkup.gym.Gym
-import chalkup.user.Role
-import chalkup.user.User
-import chalkup.user.UserRole
 
 class BootStrap {
 
@@ -37,29 +34,7 @@ class BootStrap {
         gym2.addToRoutes(SampleData.createBoulder9(fp2))
     }
 
-    private User createUser(String username, List<Role> roles) {
-        User user = new User(email: username, password: 'p')
-        user.save()
-
-        roles.each { role ->
-            UserRole.create(user, role)
-        }
-
-        return user
-    }
-
-    private void createUsers(Role routeSetterRole) {
-        createUser 'test@abc.de', [routeSetterRole]
-
-        User gym1 = createUser 'gym1@abc.de', [routeSetterRole]
-        gym1.gym = Gym.findById(1)
-        User gym2 = createUser 'gym2@abc.de', [routeSetterRole]
-        gym2.gym = Gym.findById(2)
-    }
-
     def init = { servletContext ->
-
-        Role routeSetterRole = Role.findByAuthority('ROLE_ROUTE_SETTER') ?: new Role(authority: 'ROLE_ROUTE_SETTER').save(failOnError: true)
 
         environments {
             production {
@@ -67,14 +42,10 @@ class BootStrap {
             development {
                 createGyms()
                 createRoutes()
-
-                createUsers(routeSetterRole)
             }
             test {
                 createGyms()
                 createRoutes()
-
-                createUsers(routeSetterRole)
             }
         }
     }

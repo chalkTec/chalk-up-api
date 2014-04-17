@@ -151,7 +151,7 @@ class RouteService {
     }
 
 
-    @PreAuthorize("hasPermission(#map['gym']['id'], 'chalkup.gym.Gym', 'create')")
+    @PreAuthorize("hasRole('admin') or hasPermission(#map['gym']['id'], 'chalkup.gym.Gym', 'create')")
     Route create(def map, def params) {
         String type = getRouteType(map)
         Route route;
@@ -168,13 +168,13 @@ class RouteService {
 
         route.save()
 
-        log.info("$springSecurityService.currentUser.email created route $route.id for gym $route.gym.id")
+        log.info("$springSecurityService.principal.email created route $route.id for gym $route.gym.id")
 
         return route
     }
 
 
-    @PreAuthorize("hasPermission(#map['gym']['id'], 'chalkup.gym.Gym', 'update')")
+    @PreAuthorize("hasRole('admin') or hasPermission(#map['gym']['id'], 'chalkup.gym.Gym', 'update')")
     Route update(def id, def map, def params) {
         Route route = findRoute(id)
 
@@ -201,13 +201,13 @@ class RouteService {
 
         route.save(flush: true)
 
-        log.info("$springSecurityService.currentUser.email updated route $id for gym $route.gym.id")
+        log.info("$springSecurityService.principal.email updated route $id for gym $route.gym.id")
 
         return route
     }
 
 
-    @PreAuthorize("hasPermission(#map['gym']['id'], 'chalkup.gym.Gym', 'delete')")
+    @PreAuthorize("hasRole('admin') or hasPermission(#map['gym']['id'], 'chalkup.gym.Gym', 'delete')")
     void delete(def id, def map, def params) {
         Route route = findRoute(id)
 
@@ -217,7 +217,7 @@ class RouteService {
 
         route.delete()
 
-        log.info("$springSecurityService.currentUser.email deleted route $id for gym $route.gym.id")
+        log.info("$springSecurityService.principal.email deleted route $id for gym $route.gym.id")
     }
 
 }
