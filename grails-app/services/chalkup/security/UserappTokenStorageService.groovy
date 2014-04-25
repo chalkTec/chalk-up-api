@@ -12,9 +12,12 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 class UserappTokenStorageService implements TokenStorageService {
 
+
+    public static final String USER_APP_API_TOKEN = "534e382ac8f18"
+
     @Override
     Object loadUserByToken(String tokenValue) throws TokenNotFoundException {
-        UserApp.API api = new UserApp.API("534e382ac8f18");
+        UserApp.API api = new UserApp.API(USER_APP_API_TOKEN);
         UserApp.ClientOptions options = api.getOptions();
         options.token = tokenValue;
         api.setOptions(options);
