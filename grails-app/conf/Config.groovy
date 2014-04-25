@@ -1,4 +1,5 @@
 import chalkup.gym.*
+import chalkup.rest.AccessDeniedExceptionHandler
 import grails.converters.JSON
 import org.codehaus.groovy.grails.web.converters.marshaller.ClosureObjectMarshaller
 
@@ -120,8 +121,8 @@ log4j = {
     // Set level for all application artifacts
     info 'grails.app'
 
-	// enable logging of restful-api plugin
-    info  'RestfulApiController_messageLog'
+    // enable logging of restful-api plugin
+    // info 'RestfulApiController_messageLog'
     // trace 'grails.app.controllers'
 
     error 'org.codehaus.groovy.grails.web.servlet',        // controllers
@@ -198,6 +199,13 @@ restfulApi.page.offset = 'offset'
 // ******************************************************************************
 //
 restfulApiConfig = {
+    exceptionHandlers {
+        handler {
+            instance = new AccessDeniedExceptionHandler()
+            priority = 0
+        }
+    }
+
     marshallerGroups {
         // this group will be used for all JSON representations
         group 'date' marshallers {

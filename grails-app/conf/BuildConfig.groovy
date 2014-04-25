@@ -67,7 +67,7 @@ grails.project.dependency.resolution = {
 
         compile ":spring-security-rest:1.3.3"
 
-        compile ":restful-api:0.8.0"
+        compile ":restful-api:0.9.0"
 
         compile ":inflector:0.2"    // required by restful-api, see https://github.com/restfulapi/restful-api
         compile ":cache-headers:1.1.6"  // required by restful-api, see https://github.com/restfulapi/restful-api
