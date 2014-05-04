@@ -1,5 +1,6 @@
 import chalkup.gym.*
 import chalkup.rest.AccessDeniedExceptionHandler
+import chalkup.user.User
 import grails.converters.JSON
 import org.codehaus.groovy.grails.web.converters.marshaller.ClosureObjectMarshaller
 
@@ -140,6 +141,17 @@ log4j = {
     fatal 'RestfulApiController_messageLog'
 }
 
+
+
+// USERAPP
+
+def apiToken = System.env.USERAPP_API_TOKEN
+if(!apiToken)
+    throw new RuntimeException('Userapp API token needs to be set in USERAPP_API_TOKEN')
+
+userapp.debug = true
+userapp.appId = "534e382ac8f18"
+userapp.apiToken = apiToken
 
 
 
@@ -399,7 +411,14 @@ restfulApiConfig = {
                         def routes = [:]
                         routes["current"] = "/rest/${map['resourceName']}/${map['resourceId']}/routes"
                         map['json'].property('routes', routes)
+
                         map['json'].property('colors', RouteColor.values())
+
+                        Gym gym = map['beanWrapper'].getWrappedInstance()
+                        def routeSetters = gym.getRouteSetters().collect { User user ->
+                            return ['id': user.id, 'nickname': user.nickname]
+                        }
+                        map['json'].property('routeSetters', routeSetters)
                     }
                 }
                 marshallerGroup 'date'

@@ -1,6 +1,11 @@
 package chalkup.gym
 
+import chalkup.user.User
+import io.userapp.client.exceptions.UserAppException
+
 class Gym {
+
+    def userappService
 
     String name
 
@@ -22,6 +27,16 @@ class Gym {
         this.name = name
         this.floorPlans = [] as Set
         this.routes = [] as Set
+    }
+
+    Set<User> getRouteSetters() {
+        try {
+            return userappService.listRouteSettersForGym(this)
+        }
+        catch(UserAppException e) {
+            log.error("could not retrieve list of route setters for gym $this", e)
+            return []
+        }
     }
 
     boolean equals(o) {
