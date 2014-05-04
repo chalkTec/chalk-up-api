@@ -78,7 +78,7 @@ grails.project.dependency.resolution = {
         runtime ":cors:1.1.4"
 
         // plugins needed at runtime but not for compilation
-        runtime ":hibernate4:4.3.4.2"
-        runtime ":database-migration:1.3.8"
+        runtime ":hibernate4:4.3.5.1"
+        runtime ":database-migration:1.4.0"
     }
 }
