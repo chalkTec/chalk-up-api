@@ -142,6 +142,36 @@ log4j = {
 }
 
 
+// Cache configuration
+
+// for all possible values, see: http://ehcache.org/ehcache.xml
+
+// use cache pooling to share the configured cache size among all caches
+// see http://ehcache.org/documentation/configuration/cache-size
+grails.cache.config = {
+    defaultCache {
+        eternal false
+        timeToLiveSeconds 10
+        timeToIdleSeconds 0					// no TTI eviction
+
+        // not used
+        // maxEntriesLocalHeap 100 			// ?
+
+        overflowToDisk false
+        memoryStoreEvictionPolicy 'LRU'
+    }
+
+    provider {
+        // check for more up to date EHCache versions?
+        updateCheck false
+        // do not allow changing of cache parameters after creation. It is not required for us.
+        dynamicConfig false
+
+        maxBytesLocalHeap '10m'
+    }
+}
+
+
 
 // USERAPP
 

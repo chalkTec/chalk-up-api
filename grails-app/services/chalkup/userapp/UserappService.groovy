@@ -2,6 +2,7 @@ package chalkup.userapp
 
 import chalkup.gym.Gym
 import chalkup.user.User
+import grails.plugin.cache.Cacheable
 import io.userapp.client.UserApp
 import io.userapp.client.exceptions.UserAppException
 import org.springframework.security.core.authority.SimpleGrantedAuthority
@@ -61,6 +62,7 @@ class UserappService {
         return extractUser(user.toHashMap())
     }
 
+    @Cacheable('usersById')
     User getUserById(String userId) throws UserAppException {
         UserApp.API api = createApi(grailsApplication.config.userapp.apiToken)
 

@@ -74,7 +74,11 @@ grails.project.dependency.resolution = {
 
         test ":funky-spock:0.2.1"   // required by restful-api, see https://github.com/restfulapi/restful-api
 
-        compile ':cache:1.1.1'
+        compile ':cache:1.1.5'
+        // TODO: reenable this as soon as this issue is fixed: https://jira.grails.org/browse/GPCACHEEHCACHE-11
+        // runtime ':cache-ehcache:1.0.1'
+
+
         runtime ":cors:1.1.4"
 
         // plugins needed at runtime but not for compilation
