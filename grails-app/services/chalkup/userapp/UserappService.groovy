@@ -75,7 +75,7 @@ class UserappService {
         return extractUser(user.toHashMap())
     }
 
-
+    @Cacheable('routeSettersForGym')
     Set<User> listRouteSettersForGym(Gym gym) throws UserAppException {
         UserApp.API api = createApi(grailsApplication.config.userapp.apiToken)
 
