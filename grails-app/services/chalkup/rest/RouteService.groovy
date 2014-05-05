@@ -97,6 +97,10 @@ class RouteService {
         map.remove('color')
 
         route.properties = map  // name, number, description, foreignId, 4x date
+
+        route.routeSetters = map['setters'].collect {
+            return it.id
+        }
     }
 
     void bindSportRoute(SportRoute route, def map) {
