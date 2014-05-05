@@ -317,7 +317,7 @@ restfulApiConfig = {
                     }
                     additionalFields { Map map ->
                         def json = map['json']
-                        def route = map['beanWrapper'].getWrappedInstance()
+                        Route route = map['beanWrapper'].getWrappedInstance()
 
                         if (route.name)
                             json.property('name', route.name)
@@ -330,13 +330,10 @@ restfulApiConfig = {
                         if (route.end)
                             json.property('end', route.end)
 
-                        // TODO: add route setter as soon as we have users
-                        // if(route.setter) {
-                        //  def setter = [:]
-                        //  setter['id'] = route.setter.id
-                        //  setter['nickname'] = route.setter.nickname
-                        //  json.property('setter', setter)
-                        // }
+                        def setters = route.getSetters().collect { User user ->
+                            return ['id': user.id, 'nickname': user.nickname]
+                        }
+                        json.property('setters', setters)
 
                         if (route instanceof Boulder) {
                             json.property('type', 'boulder')
@@ -369,7 +366,6 @@ restfulApiConfig = {
                                 json.property('initialGrade', initialGrade)
                             }
                         }
-
                     }
                 }
                 jsonDomainMarshaller {

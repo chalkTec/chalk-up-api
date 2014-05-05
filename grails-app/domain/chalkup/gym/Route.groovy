@@ -1,11 +1,21 @@
 package chalkup.gym
 
+import chalkup.user.User
+import io.userapp.client.exceptions.ServiceException
+import io.userapp.client.exceptions.UserAppException
+
 abstract class Route<GradeSystem> {
+
+    def userappService
 
     static mapping = {
         end column: '"end"'
         discriminator column: "route_type"
         location fetch: 'join'
+
+        routeSetters joinTable: [name: 'route_setter',
+                                key: 'route_id',
+                                column: 'user_id'], lazy: false
     }
 
     static constraints = {
@@ -25,6 +35,7 @@ abstract class Route<GradeSystem> {
 
     static hasOne = [location: Location]
 
+    static hasMany = [routeSetters: String]
 
     String name
 
@@ -45,6 +56,23 @@ abstract class Route<GradeSystem> {
     Date end
 
     String description
+
+    public Set<User> getSetters() {
+        return routeSetters.collect { String userId ->
+            try {
+                return userappService.getUserById(userId)
+            }
+            catch(ServiceException e) {
+                if(e.getErrorCode() == 'INVALID_ARGUMENT_USER_ID') {
+                    log.error("user with ID $userId not found at userapp")
+                    return User.createUserNotExistingAtUserapp(userId)
+                }
+                else {
+                    throw e
+                }
+            }
+        }
+    }
 
     public final void location(FloorPlan floorPlan, double x, double y) {
         location = new Location(floorPlan: floorPlan, x: x, y: y)

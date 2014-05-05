@@ -39,6 +39,7 @@ class SampleData {
         r.name = "tolle Route"
         r.number = 42
         r.dateSet = new Date(112, 7, 30)
+        r.routeSetters = ['NjeTsrpARgySLjiMxpao8A']
         return r
     }
 
@@ -50,6 +51,7 @@ class SampleData {
         r.name = "super tolle Route"
         r.dateSet = new Date(114, 8, 1)
         r.number = 33
+        r.routeSetters = ['6v6ygbbgRt297uuSTR760g', 'NjeTsrpARgySLjiMxpao8A']
         return r
     }
 
@@ -60,6 +62,7 @@ class SampleData {
         b.gradeRange(BoulderGrade.fromFontScale('1A'), BoulderGrade.fromFontScale('8A'))
         b.end = new Date(114, 1, 1)
         b.dateSet = new Date(114, 5, 15)
+        b.routeSetters = ['6v6ygbbgRt297uuSTR760g']
         return b
     }
 
@@ -67,6 +70,7 @@ class SampleData {
         Boulder b = new Boulder(color: RouteColor.RED)
         b.location(fp, 743 / 2000, 343 / 1393)
         b.gradeRange(BoulderGrade.fromFontScale('1A'), BoulderGrade.fromFontScale('8A'))
+        b.routeSetters = ['DBDM37LyQy6crtU1mzoT7w', 'NjeTsrpARgySLjiMxpao8A']
         return b
     }
 
@@ -74,6 +78,7 @@ class SampleData {
         Boulder b = new Boulder(color: RouteColor.WHITE)
         b.location(fp, 566 / 2000, 292 / 1393)
         b.unknownGrade()
+        b.routeSetters = ['DBDM37LyQy6crtU1mzoT7w', 'zDGcq_3BSGeJ84s5910NZg']
         return b
     }
 
@@ -81,6 +86,7 @@ class SampleData {
         Boulder b = new Boulder(color: RouteColor.WHITE)
         b.location(fp, 612 / 2000, 481 / 1393)
         b.gradeRange(BoulderGrade.fromFontScale('5C'), BoulderGrade.fromFontScale('6a+'))
+        b.routeSetters = ['DBDM37LyQy6crtU1mzoT7w', 'tC9CiumjQyGNU1M9RLCzJg', '6v6ygbbgRt297uuSTR760g']
         return b
     }
 
@@ -88,6 +94,7 @@ class SampleData {
         Boulder b = new Boulder(color: RouteColor.BLACK)
         b.location(fp, 751 / 2000, 659 / 1393)
         b.gradeRange(BoulderGrade.fromFontScale('6b'), BoulderGrade.fromFontScale('7a'))
+        b.routeSetters = ['tC9CiumjQyGNU1M9RLCzJg', 'zDGcq_3BSGeJ84s5910NZg']
         return b
     }
 
@@ -95,6 +102,7 @@ class SampleData {
         Boulder b = new Boulder(color: RouteColor.YELLOW_BLACK)
         b.location(fp, 783 / 2000, 366 / 1393)
         b.gradeRange(BoulderGrade.fromFontScale('3B'), BoulderGrade.fromFontScale('4A'))
+        b.routeSetters = ['tC9CiumjQyGNU1M9RLCzJg', 'INVALID_ID']
         return b
     }
 

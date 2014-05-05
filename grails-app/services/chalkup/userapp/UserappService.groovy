@@ -61,6 +61,18 @@ class UserappService {
         return extractUser(user.toHashMap())
     }
 
+    User getUserById(String userId) throws UserAppException {
+        UserApp.API api = createApi(grailsApplication.config.userapp.apiToken)
+
+        UserApp.Result result = api.method("user.get")
+                .parameter("user_id", userId)
+                .call();
+
+        def user = result.get(0)
+
+        return extractUser(user.toHashMap())
+    }
+
 
     Set<User> listRouteSettersForGym(Gym gym) throws UserAppException {
         UserApp.API api = createApi(grailsApplication.config.userapp.apiToken)

@@ -7,6 +7,11 @@ class User implements UserDetails {
 
     static mapWith = "none"
 
+    /// creates a dummy user that indicates that no user with this ID is found at userapp
+    static User createUserNotExistingAtUserapp(String userId) {
+        return new User(id: userId, username: 'N/A', nickname: 'N/A', email: 'N/A')
+    }
+
     String id
     String username
     String email
