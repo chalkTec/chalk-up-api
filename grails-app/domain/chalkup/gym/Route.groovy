@@ -1,8 +1,6 @@
 package chalkup.gym
 
-import chalkup.user.User
-import io.userapp.client.exceptions.ServiceException
-import io.userapp.client.exceptions.UserAppException
+import chalkup.user.RouteSetter
 
 abstract class Route<GradeSystem> {
 
@@ -13,9 +11,7 @@ abstract class Route<GradeSystem> {
         discriminator column: "route_type"
         location fetch: 'join'
 
-        routeSetters joinTable: [name: 'route_setters',
-                                key: 'route_id',
-                                column: 'user_id'], lazy: false
+        setters joinTable: [name: 'route_setting', key: 'route_id'], lazy: false
     }
 
     static constraints = {
@@ -29,13 +25,17 @@ abstract class Route<GradeSystem> {
 
         initialGradeLow nullable: true
         initialGradeHigh nullable: true
+
+        setters validator: { routeSetters, route ->
+            !routeSetters.any { it.gym != route.gym }
+        }
     }
 
     static belongsTo = [gym: Gym]
 
     static hasOne = [location: Location]
 
-    static hasMany = [routeSetters: String]
+    static hasMany = [setters: RouteSetter]
 
     String name
 
@@ -56,23 +56,6 @@ abstract class Route<GradeSystem> {
     Date end
 
     String description
-
-    public Set<User> getSetters() {
-        return routeSetters.collect { String userId ->
-            try {
-                return userappService.getUserById(userId)
-            }
-            catch(ServiceException e) {
-                if(e.getErrorCode() == 'INVALID_ARGUMENT_USER_ID') {
-                    log.error("user with ID $userId not found at userapp")
-                    return User.createUserNotExistingAtUserapp(userId)
-                }
-                else {
-                    throw e
-                }
-            }
-        }
-    }
 
     public final void location(FloorPlan floorPlan, double x, double y) {
         location = new Location(floorPlan: floorPlan, x: x, y: y)

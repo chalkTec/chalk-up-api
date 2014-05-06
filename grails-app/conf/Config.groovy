@@ -353,6 +353,7 @@ restfulApiConfig = {
                         field 'dateCreated' name 'created'
                         field 'lastUpdated' name 'updated'
                         field 'location' deep true
+                        field 'setters' deep true
                         field 'gym'
                     }
                     additionalFields { Map map ->
@@ -369,11 +370,6 @@ restfulApiConfig = {
                             json.property('dateSet', route.dateSet)
                         if (route.end)
                             json.property('end', route.end)
-
-                        def setters = route.getSetters().collect { User user ->
-                            return ['id': user.id, 'nickname': user.nickname]
-                        }
-                        json.property('setters', setters)
 
                         if (route instanceof Boulder) {
                             json.property('type', 'boulder')
@@ -421,6 +417,7 @@ restfulApiConfig = {
                 marshallerGroup 'grades'
                 marshallerGroup 'routeColor'
                 marshallerGroup 'floorPlan'
+                marshallerGroup 'routeSetter'
                 marshallerGroup 'date'
             }
             jsonExtractor {

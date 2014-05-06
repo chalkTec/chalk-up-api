@@ -3,13 +3,13 @@ package chalkup.rest
 import chalkup.exceptions.InvalidModificationException
 import chalkup.exceptions.NotFoundException
 import chalkup.gym.*
+import chalkup.user.RouteSetter
 import chalkup.user.User
 import grails.transaction.Transactional
 import grails.validation.ValidationException
 import org.springframework.dao.OptimisticLockingFailureException
 import org.springframework.http.HttpStatus
 import org.springframework.security.access.AccessDeniedException
-import org.springframework.security.access.prepost.PreAuthorize
 
 @Transactional
 class RouteService {
@@ -99,8 +99,8 @@ class RouteService {
 
         route.properties = map  // name, number, description, foreignId, 4x date
 
-        route.routeSetters = map['setters'].collect {
-            return it.id
+        route.setters = map['setters'].collect {
+            return RouteSetter.findById(it.id)
         }
     }
 
