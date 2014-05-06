@@ -1,14 +1,23 @@
 import chalkup.SampleData
 import chalkup.gym.FloorPlan
 import chalkup.gym.Gym
+import chalkup.user.RouteSetter
 
 class BootStrap {
 
     def grailsApplication
 
     def createGyms() {
-        SampleData.createBoulderwelt(grailsApplication).save(flush: true);
-        SampleData.createHeavensGate(grailsApplication).save(flush: true);
+        def boulderwelt = SampleData.createBoulderwelt(grailsApplication)
+        boulderwelt.addToRouteSetters(new RouteSetter('Markus'))
+        boulderwelt.addToRouteSetters(new RouteSetter('Dave'))
+        boulderwelt.save(flush: true);
+
+        def heavensGate = SampleData.createHeavensGate(grailsApplication)
+        heavensGate.addToRouteSetters(new RouteSetter('Timo'))
+        heavensGate.addToRouteSetters(new RouteSetter('Tom'))
+        heavensGate.addToRouteSetters(new RouteSetter('Marcel'))
+        heavensGate.save(flush: true);
     }
 
     private void createRoutes() {

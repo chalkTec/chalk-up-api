@@ -314,6 +314,16 @@ restfulApiConfig = {
                 })
             }
         }
+        group 'routeSetter' marshallers {
+            jsonDomainMarshaller {
+                supports chalkup.user.RouteSetter
+                includesFields {
+                    field 'dateCreated' name 'created'
+                    field 'nickname'
+                    field 'enabled'
+                }
+            }
+        }
     }
 
     jsonDomainMarshallerTemplates {
@@ -428,6 +438,7 @@ restfulApiConfig = {
                 jsonDomainMarshaller {
                     supports chalkup.gym.Gym
                     field 'floorPlans' deep true
+                    field 'routeSetters' deep true
                     field 'dateCreated' name 'created'
                     excludesFields {
                         field 'lastUpdated'
@@ -439,17 +450,12 @@ restfulApiConfig = {
                         map['json'].property('routes', routes)
 
                         map['json'].property('colors', RouteColor.values())
-
-                        Gym gym = map['beanWrapper'].getWrappedInstance()
-                        def routeSetters = gym.getRouteSetters().collect { User user ->
-                            return ['id': user.id, 'nickname': user.nickname]
-                        }
-                        map['json'].property('routeSetters', routeSetters)
                     }
                 }
                 marshallerGroup 'date'
                 marshallerGroup 'routeColor'
                 marshallerGroup 'floorPlan'
+                marshallerGroup 'routeSetter'
             }
         }
     }

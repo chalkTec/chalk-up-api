@@ -1,6 +1,5 @@
 package chalkup.userapp
 
-import chalkup.gym.Gym
 import chalkup.user.User
 import grails.plugin.cache.Cacheable
 import io.userapp.client.UserApp
@@ -73,25 +72,6 @@ class UserappService {
         def user = result.get(0)
 
         return extractUser(user.toHashMap())
-    }
-
-    @Cacheable('routeSettersForGym')
-    Set<User> listRouteSettersForGym(Gym gym) throws UserAppException {
-        UserApp.API api = createApi(grailsApplication.config.userapp.apiToken)
-
-        // no idea why the second quotes for query are need...
-        UserApp.Result result = api.method("user.search")
-                .parameter("filters", new UserApp.Struct().parameter("query", "\"properties.gym:${gym.id}\""))
-                .parameter("fields", "*")
-                .call();
-
-
-        def items = result.get('items').toArray()
-        List<User> routeSetters = items.collect {
-            return extractUser(it)
-        }
-
-        return routeSetters
     }
 
 }

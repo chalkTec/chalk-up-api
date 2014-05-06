@@ -13,7 +13,7 @@ abstract class Route<GradeSystem> {
         discriminator column: "route_type"
         location fetch: 'join'
 
-        routeSetters joinTable: [name: 'route_setter',
+        routeSetters joinTable: [name: 'route_setters',
                                 key: 'route_id',
                                 column: 'user_id'], lazy: false
     }

@@ -1,7 +1,6 @@
 package chalkup.gym
 
-import chalkup.user.User
-import io.userapp.client.exceptions.UserAppException
+import chalkup.user.RouteSetter
 
 class Gym {
 
@@ -9,7 +8,7 @@ class Gym {
 
     String name
 
-    static hasMany = [floorPlans: FloorPlan, routes: Route]
+    static hasMany = [floorPlans: FloorPlan, routes: Route, routeSetters: RouteSetter]
 
     static constraints = {
         name blank: false, unique: true
@@ -19,7 +18,6 @@ class Gym {
         floorPlans lazy: false
     }
 
-
     Date dateCreated
     Date lastUpdated
 
@@ -27,16 +25,6 @@ class Gym {
         this.name = name
         this.floorPlans = [] as Set
         this.routes = [] as Set
-    }
-
-    Set<User> getRouteSetters() {
-        try {
-            return userappService.listRouteSettersForGym(this)
-        }
-        catch(UserAppException e) {
-            log.error("could not retrieve list of route setters for gym $this", e)
-            return []
-        }
     }
 
     boolean equals(o) {
