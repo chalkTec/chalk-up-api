@@ -1,5 +1,6 @@
 package chalkup.user
 
+import chalkup.gym.Gym
 import org.springframework.security.core.GrantedAuthority
 import org.springframework.security.core.userdetails.UserDetails
 
@@ -15,7 +16,6 @@ class User implements UserDetails {
     String id
     String username
     String email
-    String nickname
     boolean locked
     Collection<? extends GrantedAuthority> authorities
 
@@ -24,6 +24,18 @@ class User implements UserDetails {
     public boolean hasRole(String role) {
         return getAuthorities().any {
             it.getAuthority().equals(role)
+        }
+    }
+
+    public boolean canEdit(Gym gym) {
+        if(hasRole('admin')) {
+            return true
+        }
+        else if(hasRole('route_setter')) {
+            return getGymId() == gym.id
+        }
+        else {
+            return false
         }
     }
 

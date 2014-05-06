@@ -3,6 +3,7 @@ package chalkup.rest
 import chalkup.exceptions.InvalidModificationException
 import chalkup.exceptions.NotFoundException
 import chalkup.gym.*
+import chalkup.user.User
 import grails.transaction.Transactional
 import grails.validation.ValidationException
 import org.springframework.dao.OptimisticLockingFailureException
@@ -155,23 +156,12 @@ class RouteService {
         }
     }
 
-    boolean canUserEdit(def user, Gym gym) {
-        if(user.hasRole('admin')) {
-            return true
-        }
-        else if(user.hasRole('route_setter')) {
-            return user.getGymId() == gym.id
-        }
-        else {
-            return false
-        }
-    }
 
 
     Route create(def map, def params) {
         Gym gym = Gym.findById(Long.valueOf(map['gym']['id']))
-        def user = springSecurityService.principal
-        if(!canUserEdit(user, gym))
+        User user = springSecurityService.principal
+        if(!user.canEdit(gym))
             throw new AccessDeniedException("$user is not allowed to create a route for gym $gym")
 
         String type = getRouteType(map)
@@ -197,8 +187,8 @@ class RouteService {
 
     Route update(def id, def map, def params) {
         Gym gym = Gym.findById(Long.valueOf(map['gym']['id']))
-        def user = springSecurityService.principal
-        if(!canUserEdit(user, gym))
+        User user = springSecurityService.principal
+        if(!user.canEdit(gym))
             throw new AccessDeniedException("$user is not allowed to update a route for gym $gym")
 
         Route route = findRoute(id)
@@ -234,8 +224,8 @@ class RouteService {
 
     void delete(def id, def map, def params) {
         Gym gym = Gym.findById(Long.valueOf(map['gym']['id']))
-        def user = springSecurityService.principal
-        if(!canUserEdit(user, gym))
+        User user = springSecurityService.principal
+        if(!user.canEdit(gym))
             throw new AccessDeniedException("$user is not allowed to delete a route for gym $gym")
 
         Route route = findRoute(id)

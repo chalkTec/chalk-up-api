@@ -460,4 +460,14 @@ restfulApiConfig = {
         }
     }
 
+    resource 'routeSetters' config {
+        representation {
+            mediaTypes = ["application/json"]
+            marshallers {
+                marshallerGroup 'routeSetter'
+            }
+            jsonExtractor {
+            }
+        }
+    }
 }

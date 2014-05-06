@@ -31,7 +31,6 @@ class UserappService {
             return new SimpleGrantedAuthority(it.key)
         }
 
-        user.nickname = userResult.get('properties').get('nickname').get('value')
         user.gymId = Integer.valueOf(userResult.get('properties').get('gym').get('value'))
 
         user.username = userResult.get('login')
