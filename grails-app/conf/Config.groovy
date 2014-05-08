@@ -187,7 +187,7 @@ def apiToken = System.env.USERAPP_API_TOKEN
 if(!apiToken)
     throw new RuntimeException('Userapp API token needs to be set in USERAPP_API_TOKEN')
 
-userapp.debug = true
+userapp.debug = false
 userapp.appId = "534e382ac8f18"
 userapp.apiToken = apiToken
 
