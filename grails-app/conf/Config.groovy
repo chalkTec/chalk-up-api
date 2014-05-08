@@ -120,7 +120,15 @@ log4j = {
     //}
 
     // Set level for all application artifacts
-    info 'grails.app'
+    warn 'grails.app'
+
+    // log authentication and authorization decisions
+    // debug 'org.springframework.security'
+
+    // log SQL statements
+    // debug 'org.hibernate.SQL'
+    // log parameter binding
+    // trace 'org.hibernate.type.descriptor.sql.BasicBinder'
 
     // enable logging of restful-api plugin
     // info 'RestfulApiController_messageLog'
