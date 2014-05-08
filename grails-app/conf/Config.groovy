@@ -201,8 +201,9 @@ userapp.apiToken = apiToken
 grails.plugin.springsecurity.securityConfigType = "InterceptUrlMap"
 
 grails.plugin.springsecurity.interceptUrlMap = [
-        '/images/**':               ['permitAll'],
-        '/rest/**':            ['isFullyAuthenticated() or request.getMethod().equals("GET")']
+        '/images/**':         ['permitAll'],
+        '/rest/**/ratings':   ['permitAll'],
+        '/rest/**':           ['isFullyAuthenticated() or request.getMethod().equals("GET")']
 ]
 
 grails.plugin.springsecurity.rejectIfNoRule = true
@@ -379,6 +380,14 @@ restfulApiConfig = {
                         if (route.end)
                             json.property('end', route.end)
 
+
+                        // ratings
+                        def ratings = [:]
+                        ratings['count'] = route.numberOfRatings
+                        if(route.numberOfRatings != 0)
+                            ratings['average'] = route.averageRating
+                        json.property('ratings', ratings)
+
                         if (route instanceof Boulder) {
                             json.property('type', 'boulder')
 
@@ -470,6 +479,21 @@ restfulApiConfig = {
             mediaTypes = ["application/json"]
             marshallers {
                 marshallerGroup 'routeSetter'
+            }
+            jsonExtractor {
+            }
+        }
+    }
+
+    resource 'ratings' config {
+        representation {
+            mediaTypes = ["application/json"]
+            marshallers {
+                jsonDomainMarshaller {
+                    supports chalkup.gym.Rating
+                    field 'value'
+                    field 'dateCreated' name 'created'
+                }
             }
             jsonExtractor {
             }

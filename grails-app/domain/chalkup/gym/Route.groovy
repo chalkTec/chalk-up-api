@@ -12,6 +12,7 @@ abstract class Route<GradeSystem> {
         location fetch: 'join'
 
         setters joinTable: [name: 'route_setting', key: 'route_id'], lazy: false
+        ratings lazy: false
     }
 
     static constraints = {
@@ -35,7 +36,7 @@ abstract class Route<GradeSystem> {
 
     static hasOne = [location: Location]
 
-    static hasMany = [setters: RouteSetter]
+    static hasMany = [setters: RouteSetter, ratings: Rating]
 
     String name
 
@@ -60,6 +61,17 @@ abstract class Route<GradeSystem> {
     public final void location(FloorPlan floorPlan, double x, double y) {
         location = new Location(floorPlan: floorPlan, x: x, y: y)
         location.route = this
+    }
+
+    public int getNumberOfRatings() {
+        return ratings.size()
+    }
+
+    public Double getAverageRating() {
+        if(ratings.isEmpty())
+            return null
+        else
+            return ratings.collect { return it.value }.sum() / ratings.size()
     }
 
     // will be interpreted by subclasses
@@ -121,4 +133,9 @@ abstract class Route<GradeSystem> {
 
     public abstract String getReadableInitialGrade();
 
+
+    @Override
+    public String toString() {
+        return String.valueOf(id)
+    }
 }
