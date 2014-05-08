@@ -53,6 +53,18 @@ class RouteService {
         return criteria.count()
     }
 
+    private Route findRoute(id) {
+        long lid = Long.valueOf(id)
+        Route route = Route.findById(lid)
+        if (route == null)
+            throw new NotFoundException(objectName: 'route', objectId: lid)
+        route
+    }
+
+    def show(def params) {
+        return findRoute(params['id'])
+    }
+
     String getRouteType(def map) {
         String type = map['type']
         if (!type) {
@@ -82,14 +94,6 @@ class RouteService {
         return type;
     }
 
-
-    private Route findRoute(id) {
-        long lid = Long.valueOf(id)
-        Route route = Route.findById(lid)
-        if (route == null)
-            throw new NotFoundException(objectName: 'route', objectId: lid)
-        route
-    }
 
     // bind attributes common to sport routes and boulders
     void bindRoute(Route route, def map) {
