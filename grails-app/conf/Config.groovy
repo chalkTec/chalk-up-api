@@ -120,7 +120,7 @@ log4j = {
     //}
 
     // Set level for all application artifacts
-    warn 'grails.app'
+    info 'grails.app'
 
     // log authentication and authorization decisions
     // debug 'org.springframework.security'
