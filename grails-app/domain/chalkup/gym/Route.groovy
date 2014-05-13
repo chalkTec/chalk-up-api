@@ -58,6 +58,11 @@ abstract class Route<GradeSystem> {
 
     String description
 
+    Route() {
+        this.setters = [] as Set
+        this.ratings = [] as Set
+    }
+
     public final void location(FloorPlan floorPlan, double x, double y) {
         location = new Location(floorPlan: floorPlan, x: x, y: y)
         location.route = this
