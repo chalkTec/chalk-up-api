@@ -132,6 +132,8 @@ log4j = {
 
     // enable logging of restful-api plugin
     // info 'RestfulApiController_messageLog'
+    error 'RestfulApiController_messageLog'
+
     // trace 'grails.app.controllers'
 
     error 'org.codehaus.groovy.grails.web.servlet',        // controllers
@@ -145,8 +147,6 @@ log4j = {
             'org.springframework',
             'org.hibernate',
             'net.sf.ehcache.hibernate'
-
-    fatal 'RestfulApiController_messageLog'
 }
 
 
