@@ -19,4 +19,8 @@ class RouteSetter {
 
     static belongsTo = [gym: Gym]
 
+    @Override
+    public String toString() {
+        return nickname
+    }
 }
