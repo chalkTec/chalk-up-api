@@ -1,3 +1,5 @@
 language: groovy
-script: ./grailsw refresh-dependencies
-     && ./grailsw test-app
+script: ./grailsw refresh-dependencies && ./grailsw test-app
+env:
+  global:
+    secure: mbql08KcpuH3lqQTUy+eTjsUo7de8vjHXMtubiCjFwLUr7rl8w82s2Ty0TbeGrfkikxQqtIgaGH6EN+99yv9YBm0FSyRE1os77oBdV5oE/ikcLm2xvN7rF9o68lvE9wX/dl4eGRirYL9HZUmLPG0AdEHwf2ZgTZMdY6gv2IgIi8=
